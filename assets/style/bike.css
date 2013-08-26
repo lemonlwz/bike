@@ -1,0 +1,1851 @@
+/* line 2, sass/bike.scss */
+.bk-wrap {
+  padding: 10px 0;
+  background: url(../images/bk-main-bg-repeat.png);
+}
+/* line 5, sass/bike.scss */
+.bk-wrap hr {
+  margin: 0 auto;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid white;
+}
+
+/* line 1, sass/mods/_icons.scss */
+.bk-icon-search {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  font-size: 0;
+  line-height: 0;
+  background: url("../images/sprites.png") 0 0 no-repeat;
+}
+
+/* line 1, sass/mods/_head.scss */
+.bk-head {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 2px;
+  line-height: 1.2em;
+  font-size: 12px;
+  background: #fff;
+  border-radius: 6px 6px 0 0;
+}
+/* line 10, sass/mods/_head.scss */
+.bk-head .logo {
+  position: absolute;
+  left: 40px;
+  top: 20px;
+}
+/* line 15, sass/mods/_head.scss */
+.bk-head .nav {
+  padding-top: 45px;
+  zoom: 1;
+}
+/* line 18, sass/mods/_head.scss */
+.bk-head .nav:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 23, sass/mods/_head.scss */
+.bk-head .nav ul {
+  float: right;
+  margin-right: 130px;
+}
+/* line 27, sass/mods/_head.scss */
+.bk-head .nav li {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+}
+/* line 32, sass/mods/_head.scss */
+.bk-head .nav a {
+  float: left;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Microsoft Yahei", arial;
+  color: #333;
+  text-decoration: none;
+}
+/* line 41, sass/mods/_head.scss */
+.bk-head .nav .active a {
+  border-bottom: 5px solid #ff3333;
+}
+/* line 46, sass/mods/_head.scss */
+.bk-head .r-t {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+/* line 52, sass/mods/_head.scss */
+.bk-head .search {
+  padding: 0 5px 2px;
+  background: #FFF;
+  border: 1px solid #dddddd;
+}
+/* line 56, sass/mods/_head.scss */
+.bk-head .search .txt {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  border: 0;
+  outline: none;
+}
+/* line 64, sass/mods/_head.scss */
+.bk-head .search .btn {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  vertical-align: middle;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+/* line 76, sass/mods/_head.scss */
+.bk-head.w960 {
+  width: 960px;
+}
+
+/* line 1, sass/mods/_foot.scss */
+.bk-foot {
+  width: 900px;
+  margin: 0 auto;
+  padding: 40px 40px 20px;
+  background: #f6f6f6;
+  border-radius: 0 0 6px 6px;
+  zoom: 1;
+}
+/* line 8, sass/mods/_foot.scss */
+.bk-foot:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 13, sass/mods/_foot.scss */
+.bk-foot .logo {
+  display: inline;
+  float: left;
+  margin-right: 50px;
+}
+/* line 18, sass/mods/_foot.scss */
+.bk-foot .richtext {
+  display: inline;
+  float: left;
+  width: 520px;
+  margin-right: 70px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #999;
+}
+/* line 26, sass/mods/_foot.scss */
+.bk-foot .richtext span {
+  color: #666;
+}
+/* line 30, sass/mods/_foot.scss */
+.bk-foot .qr-code {
+  display: inline;
+  float: right;
+  margin-top: -12px;
+}
+/* line 35, sass/mods/_foot.scss */
+.bk-foot .cpr {
+  clear: both;
+  padding-top: 40px;
+  text-align: right;
+  font-size: 12px;
+  color: #999;
+}
+/* line 41, sass/mods/_foot.scss */
+.bk-foot .cpr a {
+  color: #666;
+  text-decoration: none;
+}
+
+/* line 47, sass/mods/_foot.scss */
+.bk-foot.w960 {
+  width: 880px;
+}
+
+/* line 1, sass/mods/_banner.scss */
+.bk-banner {
+  position: relative;
+  width: 980px;
+  height: 333px;
+  margin: 0 auto;
+}
+/* line 6, sass/mods/_banner.scss */
+.bk-banner ul {
+  position: relative;
+  height: 333px;
+  transition: left 800ms ease-in-out;
+}
+/* line 11, sass/mods/_banner.scss */
+.bk-banner li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  width: 100%;
+  height: 333px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: opacity 800ms ease-in-out;
+}
+/* line 22, sass/mods/_banner.scss */
+.bk-banner .slider-number {
+  position: absolute;
+  left: 50%;
+  bottom: .8em;
+}
+/* line 26, sass/mods/_banner.scss */
+.bk-banner .slider-number .bd {
+  margin-left: -50%;
+}
+/* line 29, sass/mods/_banner.scss */
+.bk-banner .slider-number a {
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+  text-indent: -9999em;
+  overflow: hidden;
+  outline: 0;
+  background: url("../images/sprites.png") -31px 0px no-repeat;
+}
+/* line 39, sass/mods/_banner.scss */
+.bk-banner .slider-number .active {
+  background-position: -16px 0;
+}
+/* line 43, sass/mods/_banner.scss */
+.bk-banner .less-count {
+  display: none;
+}
+/* line 46, sass/mods/_banner.scss */
+.bk-banner .prev {
+  position: absolute;
+  left: -7px;
+  top: 140px;
+  display: none;
+  width: 40px;
+  height: 44px;
+  background: url("../images/sprites.png") 0 -16px no-repeat;
+  z-index: 5;
+  cursor: pointer;
+}
+/* line 57, sass/mods/_banner.scss */
+.bk-banner .next {
+  position: absolute;
+  right: -7px;
+  top: 140px;
+  display: none;
+  width: 40px;
+  height: 44px;
+  background: url("../images/sprites.png") -40px -16px no-repeat;
+  z-index: 5;
+  cursor: pointer;
+}
+/* line 68, sass/mods/_banner.scss */
+.bk-banner .info {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  width: 349px;
+  height: 184px;
+  padding: 26px 32px;
+  border-radius: 6px;
+  overflow: hidden;
+  color: #FFF;
+  z-index: 5;
+}
+/* line 79, sass/mods/_banner.scss */
+.bk-banner .info .bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  background: rgba(0, 0, 0, 0.8);
+  filter: alpha(opacity=80);
+}
+/* line 89, sass/mods/_banner.scss */
+.bk-banner .info h3 {
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-family: "Microsoft Yahei", arial;
+}
+/* line 95, sass/mods/_banner.scss */
+.bk-banner .info .richtext {
+  position: relative;
+  line-height: 30px;
+  font-size: 14px;
+}
+/* line 100, sass/mods/_banner.scss */
+.bk-banner .info .more {
+  position: relative;
+  float: right;
+  text-decoration: none;
+  color: #666;
+}
+
+/* line 109, sass/mods/_banner.scss */
+.bk-banner.w960 {
+  width: 960px;
+}
+
+/* line 113, sass/mods/_banner.scss */
+:root .bk-banner .info .bg {
+  filter: none;
+}
+
+/* line 1, sass/mods/_intro.scss */
+.bk-intro {
+  width: 900px;
+  margin: auto;
+  padding: 0 30px;
+  background: #fff;
+}
+/* line 6, sass/mods/_intro.scss */
+.bk-intro .new {
+  padding: 30px 0;
+  text-align: center;
+  font-family: "Microsoft Yahei", arial;
+  border-bottom: 1px solid #eaeaea;
+}
+/* line 11, sass/mods/_intro.scss */
+.bk-intro .new h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #333;
+}
+/* line 15, sass/mods/_intro.scss */
+.bk-intro .new h2 a {
+  text-decoration: none;
+  color: #333;
+}
+/* line 20, sass/mods/_intro.scss */
+.bk-intro .new p {
+  font-size: 18px;
+  color: #999;
+}
+/* line 25, sass/mods/_intro.scss */
+.bk-intro .activity-list {
+  padding: 0 15px 50px;
+}
+/* line 27, sass/mods/_intro.scss */
+.bk-intro .activity-list ul {
+  margin-left: -76px;
+  zoom: 1;
+}
+/* line 30, sass/mods/_intro.scss */
+.bk-intro .activity-list ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 36, sass/mods/_intro.scss */
+.bk-intro .activity-list li {
+  display: inline;
+  float: left;
+  width: 236px;
+  margin-left: 76px;
+  padding: 35px 0 10px;
+}
+/* line 43, sass/mods/_intro.scss */
+.bk-intro .activity-list h3 {
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-family: "Microsoft Yahei", arial;
+  color: #333;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* line 51, sass/mods/_intro.scss */
+.bk-intro .activity-list h3 a {
+  text-decoration: none;
+  color: #333;
+}
+/* line 56, sass/mods/_intro.scss */
+.bk-intro .activity-list .pic {
+  height: 120px;
+  margin-bottom: 12px;
+}
+/* line 60, sass/mods/_intro.scss */
+.bk-intro .activity-list p {
+  height: 120px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #999;
+  overflow: hidden;
+}
+/* line 68, sass/mods/_intro.scss */
+.bk-intro .bk-active {
+  padding-bottom: 10px;
+  zoom: 1;
+}
+/* line 71, sass/mods/_intro.scss */
+.bk-intro .bk-active:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 76, sass/mods/_intro.scss */
+.bk-intro .bk-active .list {
+  display: inline;
+  float: left;
+}
+/* line 79, sass/mods/_intro.scss */
+.bk-intro .bk-active .list h3 {
+  margin-bottom: 10px;
+  font-family: "Microsoft Yahei", arial;
+  font-size: 18px;
+  color: #333;
+}
+/* line 85, sass/mods/_intro.scss */
+.bk-intro .bk-active .list ul {
+  width: 240px;
+  zoom: 1;
+}
+/* line 88, sass/mods/_intro.scss */
+.bk-intro .bk-active .list ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 93, sass/mods/_intro.scss */
+.bk-intro .bk-active .list ul li {
+  display: inline;
+  float: left;
+  width: 110px;
+  margin-right: 10px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #999;
+}
+/* line 102, sass/mods/_intro.scss */
+.bk-intro .bk-active .list ul a {
+  text-decoration: none;
+  color: #999;
+}
+/* line 106, sass/mods/_intro.scss */
+.bk-intro .bk-active .list ul i {
+  font-style: normal;
+}
+/* line 112, sass/mods/_intro.scss */
+.bk-intro .bk-switch-wp {
+  display: inline;
+  float: left;
+  margin-left: 85px;
+}
+/* line 116, sass/mods/_intro.scss */
+.bk-intro .bk-switch-wp h3 {
+  margin-bottom: 18px;
+  font-family: "Microsoft Yahei", arial;
+  font-size: 18px;
+  color: #333;
+}
+/* line 123, sass/mods/_intro.scss */
+.bk-intro .bk-switch {
+  position: relative;
+  width: 518px;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  border-radius: 8px;
+  box-shadow: 0 0 3px #cccccc;
+}
+/* line 132, sass/mods/_intro.scss */
+.bk-intro .bk-switch .switch-content {
+  position: relative;
+  width: 518px;
+  height: 58px;
+  overflow: hidden;
+}
+/* line 138, sass/mods/_intro.scss */
+.bk-intro .bk-switch ul {
+  position: absolute;
+  left: 0;
+  top: 0;
+  zoom: 1;
+}
+/* line 144, sass/mods/_intro.scss */
+.bk-intro .bk-switch ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 149, sass/mods/_intro.scss */
+.bk-intro .bk-switch li {
+  display: inline;
+  float: left;
+}
+/* line 153, sass/mods/_intro.scss */
+.bk-intro .bk-switch li img {
+  width: 48px;
+  height: 48px;
+  margin: 0 8px;
+  padding: 4px;
+  background: #fff;
+  vertical-align: top;
+  border: 1px solid #d4d4d4;
+  box-shadow: 0 0 3px #cccccc;
+}
+/* line 163, sass/mods/_intro.scss */
+.bk-intro .bk-switch .left {
+  position: absolute;
+  left: -15px;
+  top: 30px;
+  padding: 5px 8px 5px 5px;
+  line-height: 0;
+  font-size: 0;
+  text-align: center;
+  background: #FFF;
+  border: 1px solid #d2d2d2;
+  cursor: pointer;
+  z-index: 5;
+}
+/* line 176, sass/mods/_intro.scss */
+.bk-intro .bk-switch .left i {
+  display: inline-block;
+  width: 10px;
+  height: 13px;
+  background: url(../images/sprites.png) -55px 0 no-repeat;
+}
+/* line 182, sass/mods/_intro.scss */
+.bk-intro .bk-switch .right {
+  position: absolute;
+  right: -15px;
+  top: 30px;
+  padding: 5px 5px 5px 8px;
+  line-height: 0;
+  font-size: 0;
+  text-align: center;
+  background: #FFF;
+  border: 1px solid #d2d2d2;
+  cursor: pointer;
+  z-index: 5;
+}
+/* line 195, sass/mods/_intro.scss */
+.bk-intro .bk-switch .right i {
+  display: inline-block;
+  width: 10px;
+  height: 13px;
+  background: url(../images/sprites.png) -65px 0 no-repeat;
+}
+/* line 201, sass/mods/_intro.scss */
+.bk-intro .bk-switch .bk-switch-detail {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  width: 360px;
+  padding: 10px 20px;
+  line-height: 18px;
+  font-size: 12px;
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  border-radius: 8px;
+  box-shadow: 0 0 3px #cccccc;
+  color: #999;
+}
+/* line 215, sass/mods/_intro.scss */
+.bk-intro .bk-switch .bk-switch-detail label {
+  font-weight: 700;
+  color: #666;
+}
+/* line 219, sass/mods/_intro.scss */
+.bk-intro .bk-switch .bk-switch-detail .arrow {
+  position: absolute;
+  left: 30px;
+  top: -8px;
+  width: 10px;
+  height: 8px;
+  background: url(../images/sprites.png) -45px 0 no-repeat;
+  overflow: hidden;
+}
+
+/* line 1, sass/mods/_about.scss */
+.bk-about {
+  width: 960px;
+  margin: 0 auto;
+  background: #ececec;
+  zoom: 1;
+}
+/* line 7, sass/mods/_about.scss */
+.bk-about:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 12, sass/mods/_about.scss */
+.bk-about .bd {
+  width: 400px;
+  height: 230px;
+  padding: 40px;
+  overflow: hidden;
+}
+/* line 18, sass/mods/_about.scss */
+.bk-about .pic {
+  position: absolute;
+}
+/* line 20, sass/mods/_about.scss */
+.bk-about .pic img {
+  vertical-align: top;
+}
+/* line 24, sass/mods/_about.scss */
+.bk-about .r-l {
+  position: relative;
+  zoom: 1;
+}
+/* line 29, sass/mods/_about.scss */
+.bk-about .r-l:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 34, sass/mods/_about.scss */
+.bk-about .r-l .pic {
+  right: 0;
+  top: 0;
+}
+/* line 39, sass/mods/_about.scss */
+.bk-about .r-r {
+  position: relative;
+  zoom: 1;
+}
+/* line 44, sass/mods/_about.scss */
+.bk-about .r-r:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 49, sass/mods/_about.scss */
+.bk-about .r-r .bd {
+  margin-left: 480px;
+}
+/* line 52, sass/mods/_about.scss */
+.bk-about .r-r .pic {
+  left: 0;
+  top: 0;
+}
+/* line 57, sass/mods/_about.scss */
+.bk-about h3 {
+  margin-bottom: 10px;
+  line-height: 34px;
+  font-size: 24px;
+  font-family: "Microsoft Yahei", arial;
+  color: #011302;
+}
+/* line 64, sass/mods/_about.scss */
+.bk-about .richtext {
+  line-height: 30px;
+  font-size: 14px;
+  color: #838383;
+}
+/* line 68, sass/mods/_about.scss */
+.bk-about .richtext a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #838383;
+}
+/* line 72, sass/mods/_about.scss */
+.bk-about .richtext a:hover {
+  text-decoration: underline;
+}
+
+/* line 79, sass/mods/_about.scss */
+.bk-about.w960 {
+  width: 960px;
+}
+
+/* line 1, sass/mods/_activity-list.scss */
+.bk-activity-list {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 20px;
+  background: #FFF;
+}
+/* line 6, sass/mods/_activity-list.scss */
+.bk-activity-list h3 {
+  margin: 0 10px;
+  padding: 10px 26px;
+  font-size: 14px;
+  font-family: "Microsoft Yahei", arial;
+  background: #f4f4f4;
+  border-bottom: 1px dotted #dddddd;
+  color: #333;
+}
+/* line 15, sass/mods/_activity-list.scss */
+.bk-activity-list .hot-icon {
+  display: inline-block;
+  width: 28px;
+  height: 15px;
+  margin-left: 5px;
+  background: url(../images/sprites.png) 0 -60px no-repeat;
+}
+/* line 23, sass/mods/_activity-list.scss */
+.bk-activity-list .list li {
+  zoom: 1;
+  padding: 25px 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+/* line 25, sass/mods/_activity-list.scss */
+.bk-activity-list .list li:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 34, sass/mods/_activity-list.scss */
+.bk-activity-list .pic {
+  display: inline;
+  float: left;
+  width: 150px;
+  height: 100px;
+  margin-right: 20px;
+}
+/* line 41, sass/mods/_activity-list.scss */
+.bk-activity-list .bd {
+  display: inline;
+  float: left;
+  width: 450px;
+}
+/* line 46, sass/mods/_activity-list.scss */
+.bk-activity-list label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: "Microsoft Yahei", arial;
+}
+/* line 52, sass/mods/_activity-list.scss */
+.bk-activity-list .hot {
+  color: #ed1a3b;
+}
+/* line 55, sass/mods/_activity-list.scss */
+.bk-activity-list .rdy {
+  color: #486db4;
+}
+/* line 58, sass/mods/_activity-list.scss */
+.bk-activity-list h4 {
+  margin-bottom: 5px;
+  line-height: 24px;
+  font-size: 18px;
+  font-family: "Microsoft Yahei", arial;
+}
+/* line 63, sass/mods/_activity-list.scss */
+.bk-activity-list h4 a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 68, sass/mods/_activity-list.scss */
+.bk-activity-list .time {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: "Microsoft Yahei", arial;
+  color: #999;
+}
+/* line 74, sass/mods/_activity-list.scss */
+.bk-activity-list .richtext {
+  line-height: 24px;
+  font-size: 12px;
+  color: #999;
+}
+/* line 79, sass/mods/_activity-list.scss */
+.bk-activity-list .ctrl {
+  display: inline;
+  float: left;
+  margin: 60px 0 0 85px;
+  width: 180px;
+  text-align: center;
+}
+/* line 85, sass/mods/_activity-list.scss */
+.bk-activity-list .ctrl .btn-add {
+  display: inline-block;
+  padding: 15px 45px;
+  font-size: 18px;
+  font-family: "Microsoft Yahei", arial;
+  text-decoration: none;
+  background: #83ad02;
+  color: #FFF;
+}
+/* line 94, sass/mods/_activity-list.scss */
+.bk-activity-list .ctrl p {
+  padding: 10px 0;
+  font-size: 12px;
+  color: #999;
+}
+
+/* line 102, sass/mods/_activity-list.scss */
+.pagination {
+  margin: 20px 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 106, sass/mods/_activity-list.scss */
+.pagination a {
+  color: #666;
+}
+
+/* line 109, sass/mods/_activity-list.scss */
+.pagination ul {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  margin-left: 0;
+  margin-bottom: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* line 124, sass/mods/_activity-list.scss */
+.pagination ul > li {
+  display: inline;
+}
+
+/* line 128, sass/mods/_activity-list.scss */
+.pagination ul > li > a,
+.pagination ul > li > span {
+  float: left;
+  padding: 4px 12px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-left-width: 0;
+}
+
+/* line 139, sass/mods/_activity-list.scss */
+.pagination ul > li > a:hover,
+.pagination ul > .active > a,
+.pagination ul > .active > span {
+  background-color: #f5f5f5;
+}
+
+/* line 143, sass/mods/_activity-list.scss */
+.pagination ul > .active > a,
+.pagination ul > .active > span {
+  color: #999999;
+  cursor: default;
+}
+
+/* line 149, sass/mods/_activity-list.scss */
+.pagination ul > .disabled > span,
+.pagination ul > .disabled > a,
+.pagination ul > .disabled > a:hover {
+  color: #999999;
+  background-color: transparent;
+  cursor: default;
+}
+
+/* line 155, sass/mods/_activity-list.scss */
+.pagination ul > li:first-child > a,
+.pagination ul > li:first-child > span {
+  border-left-width: 1px;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  border-top-left-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+/* line 165, sass/mods/_activity-list.scss */
+.pagination ul > li:last-child > a,
+.pagination ul > li:last-child > span {
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/* line 173, sass/mods/_activity-list.scss */
+.pagination-centered {
+  text-align: center;
+}
+
+/* line 176, sass/mods/_activity-list.scss */
+.pagination-right {
+  text-align: right;
+}
+
+/* line 180, sass/mods/_activity-list.scss */
+.pagination-large ul > li > a,
+.pagination-large ul > li > span {
+  padding: 11px 19px;
+  font-size: 16.25px;
+}
+
+/* line 185, sass/mods/_activity-list.scss */
+.pagination-large ul > li:first-child > a,
+.pagination-large ul > li:first-child > span {
+  -webkit-border-top-left-radius: 6px;
+  -moz-border-radius-topleft: 6px;
+  border-top-left-radius: 6px;
+  -webkit-border-bottom-left-radius: 6px;
+  -moz-border-radius-bottomleft: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+/* line 194, sass/mods/_activity-list.scss */
+.pagination-large ul > li:last-child > a,
+.pagination-large ul > li:last-child > span {
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-radius-topright: 6px;
+  border-top-right-radius: 6px;
+  -webkit-border-bottom-right-radius: 6px;
+  -moz-border-radius-bottomright: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+/* line 205, sass/mods/_activity-list.scss */
+.pagination-mini ul > li:first-child > a,
+.pagination-small ul > li:first-child > a,
+.pagination-mini ul > li:first-child > span,
+.pagination-small ul > li:first-child > span {
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+/* line 216, sass/mods/_activity-list.scss */
+.pagination-mini ul > li:last-child > a,
+.pagination-small ul > li:last-child > a,
+.pagination-mini ul > li:last-child > span,
+.pagination-small ul > li:last-child > span {
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+/* line 225, sass/mods/_activity-list.scss */
+.pagination-small ul > li > a,
+.pagination-small ul > li > span {
+  padding: 2px 10px;
+  font-size: 11.049999999999999px;
+}
+
+/* line 230, sass/mods/_activity-list.scss */
+.pagination-mini ul > li > a,
+.pagination-mini ul > li > span {
+  padding: 1px 6px;
+  font-size: 9.75px;
+}
+
+/* line 234, sass/mods/_activity-list.scss */
+.pager {
+  margin: 20px 0;
+  list-style: none;
+  text-align: center;
+  *zoom: 1;
+}
+
+/* line 241, sass/mods/_activity-list.scss */
+.pager:before,
+.pager:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+/* line 246, sass/mods/_activity-list.scss */
+.pager:after {
+  clear: both;
+}
+
+/* line 249, sass/mods/_activity-list.scss */
+.pager li {
+  display: inline;
+}
+
+/* line 253, sass/mods/_activity-list.scss */
+.pager li > a,
+.pager li > span {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #fff;
+  border: 1px solid #dddddd;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+/* line 262, sass/mods/_activity-list.scss */
+.pager li > a:hover {
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+
+/* line 267, sass/mods/_activity-list.scss */
+.pager .next > a,
+.pager .next > span {
+  float: right;
+}
+
+/* line 271, sass/mods/_activity-list.scss */
+.pager .previous > a,
+.pager .previous > span {
+  float: left;
+}
+
+/* line 276, sass/mods/_activity-list.scss */
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > span {
+  color: #999999;
+  background-color: #fff;
+  cursor: default;
+}
+
+/* line 1, sass/mods/_club-list.scss */
+.bk-club-list {
+  width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  font-size: 12px;
+  background: #fff;
+}
+/* line 7, sass/mods/_club-list.scss */
+.bk-club-list .hidden {
+  display: none;
+}
+/* line 10, sass/mods/_club-list.scss */
+.bk-club-list .hd {
+  position: relative;
+}
+/* line 13, sass/mods/_club-list.scss */
+.bk-club-list h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-family: "Microsoft Yahei", arial;
+  color: #131313;
+}
+/* line 18, sass/mods/_club-list.scss */
+.bk-club-list h2 .all {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+/* line 24, sass/mods/_club-list.scss */
+.bk-club-list h2 .all i, .bk-club-list h2 .all b {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 28, sass/mods/_club-list.scss */
+.bk-club-list h2 .all i {
+  width: 0;
+  height: 0;
+  margin: 0 0 -5px 5px;
+  font-size: 0;
+  line-height: 0;
+  border-style: solid dashed dashed dashed;
+  border-width: 5px;
+  border-color: #666666 transparent transparent transparent;
+}
+/* line 40, sass/mods/_club-list.scss */
+.bk-club-list .search {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  width: 193px;
+  height: 27px;
+  padding-left: 10px;
+  background: url(../images/sprites.png) 0 -110px no-repeat;
+  zoom: 1;
+}
+/* line 49, sass/mods/_club-list.scss */
+.bk-club-list .search:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 54, sass/mods/_club-list.scss */
+.bk-club-list .search .txt {
+  float: left;
+  display: inline;
+  width: 165px;
+  margin: 5px 0 0;
+  border: none;
+  outline: 0;
+}
+/* line 62, sass/mods/_club-list.scss */
+.bk-club-list .search .btn {
+  float: left;
+  display: inline;
+  width: 16px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+/* line 74, sass/mods/_club-list.scss */
+.bk-club-list .filter {
+  margin-bottom: 20px;
+  color: #666;
+}
+/* line 77, sass/mods/_club-list.scss */
+.bk-club-list .filter li {
+  margin-bottom: 10px;
+}
+/* line 80, sass/mods/_club-list.scss */
+.bk-club-list .filter label {
+  margin-right: 5px;
+}
+/* line 83, sass/mods/_club-list.scss */
+.bk-club-list .filter a {
+  padding: 3px 5px;
+  text-decoration: none;
+  color: #999;
+}
+/* line 88, sass/mods/_club-list.scss */
+.bk-club-list .filter .active {
+  background: #c00;
+  color: #fff;
+}
+/* line 95, sass/mods/_club-list.scss */
+.bk-club-list .club-list {
+  overflow: hidden;
+}
+/* line 97, sass/mods/_club-list.scss */
+.bk-club-list .club-list li {
+  padding: 20px;
+  border-top: 1px dashed #cccccc;
+  zoom: 1;
+}
+/* line 101, sass/mods/_club-list.scss */
+.bk-club-list .club-list li:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 107, sass/mods/_club-list.scss */
+.bk-club-list .club-list .logo {
+  float: left;
+  display: inline;
+  width: 120px;
+  height: 100px;
+  margin-right: 25px;
+  text-align: center;
+  border: 1px solid lightgrey;
+}
+/* line 115, sass/mods/_club-list.scss */
+.bk-club-list .club-list .logo i {
+  display: inline-block;
+  width: 0px;
+  height: 100px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+/* line 122, sass/mods/_club-list.scss */
+.bk-club-list .club-list .logo img {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 127, sass/mods/_club-list.scss */
+.bk-club-list .club-list .cnt {
+  overflow: hidden;
+  zoom: 1;
+}
+/* line 133, sass/mods/_club-list.scss */
+.bk-club-list .club-list .cnt:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 138, sass/mods/_club-list.scss */
+.bk-club-list .club-list .cnt dl {
+  float: left;
+  display: inline;
+  width: 520px;
+  padding-right: 10px;
+}
+/* line 144, sass/mods/_club-list.scss */
+.bk-club-list .club-list .cnt dt {
+  margin-bottom: 10px;
+}
+/* line 147, sass/mods/_club-list.scss */
+.bk-club-list .club-list .cnt .name {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #666;
+}
+/* line 154, sass/mods/_club-list.scss */
+.bk-club-list .club-list .cnt .name:hover {
+  text-decoration: underline;
+}
+/* line 158, sass/mods/_club-list.scss */
+.bk-club-list .club-list .cnt .km-info {
+  margin-bottom: 15px;
+  font-family: "Microsoft Yahei", arial;
+  color: #333;
+  font-weight: 700;
+}
+/* line 163, sass/mods/_club-list.scss */
+.bk-club-list .club-list .cnt .km-info b {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 168, sass/mods/_club-list.scss */
+.bk-club-list .club-list .cnt .richtext {
+  line-height: 24px;
+  color: #999;
+}
+/* line 174, sass/mods/_club-list.scss */
+.bk-club-list .club-list .info {
+  padding: 15px 0 0 15px;
+  overflow: hidden;
+  border-left: 1px solid #dddddd;
+}
+/* line 178, sass/mods/_club-list.scss */
+.bk-club-list .club-list .info p {
+  margin-bottom: 15px;
+}
+/* line 181, sass/mods/_club-list.scss */
+.bk-club-list .club-list .info i {
+  margin-right: 20px;
+}
+/* line 184, sass/mods/_club-list.scss */
+.bk-club-list .club-list .info span {
+  display: inline-block;
+  vertical-align: middle;
+  color: #999;
+}
+/* line 192, sass/mods/_club-list.scss */
+.bk-club-list .icon-start {
+  display: inline-block;
+  width: 58px;
+  height: 19px;
+  margin-right: 10px;
+  padding-left: 25px;
+  line-height: 19px;
+  vertical-align: middle;
+  text-indent: 3px;
+  background: url(../images/sprites.png) -90px 0 no-repeat;
+  color: #fff;
+}
+/* line 204, sass/mods/_club-list.scss */
+.bk-club-list .icon-win {
+  display: inline-block;
+  width: 53px;
+  height: 21px;
+  margin-right: 10px;
+  padding-left: 25px;
+  line-height: 21px;
+  vertical-align: middle;
+  text-indent: 5px;
+  background: url(../images/sprites.png) -90px -20px no-repeat;
+  color: #fff;
+}
+/* line 216, sass/mods/_club-list.scss */
+.bk-club-list .icon-num {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  padding: 2px 5px;
+  font-weight: 700;
+  background: #666;
+  border-radius: 3px;
+  color: #fff;
+}
+/* line 226, sass/mods/_club-list.scss */
+.bk-club-list .icon-km {
+  position: relative;
+  left: -10px;
+  padding-left: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+/* line 233, sass/mods/_club-list.scss */
+.bk-club-list .icon-km b {
+  position: relative;
+  left: 5px;
+  display: inline-block;
+  width: 170px;
+  height: 28px;
+  line-height: 26px;
+  font-size: 18px;
+  font-weight: 400;
+  text-indent: 8px;
+  letter-spacing: .5em;
+  color: #fff;
+  background: url(../images/sprites.png) 0 -80px no-repeat;
+}
+/* line 248, sass/mods/_club-list.scss */
+.bk-club-list .icon-bike {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 20px;
+  background: url(../images/sprites.png) -90px -50px no-repeat;
+}
+/* line 255, sass/mods/_club-list.scss */
+.bk-club-list .icon-member {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 20px;
+  background: url(../images/sprites.png) -120px -50px no-repeat;
+}
+/* line 262, sass/mods/_club-list.scss */
+.bk-club-list .icon-activity {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 20px;
+  background: url(../images/sprites.png) -150px -50px no-repeat;
+}
+
+/* line 271, sass/mods/_club-list.scss */
+.bk-club-list.w960 {
+  width: 960px;
+}
+
+/* line 1, sass/mods/_club-home.scss */
+.bk-club-home {
+  width: 900px;
+  margin: 0 auto;
+  font-size: 12px;
+  background: #fff;
+}
+/* line 7, sass/mods/_club-home.scss */
+.bk-club-home .hd {
+  position: relative;
+  padding: 20px;
+  background: #f8f8f8;
+  zoom: 1;
+}
+/* line 12, sass/mods/_club-home.scss */
+.bk-club-home .hd:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 17, sass/mods/_club-home.scss */
+.bk-club-home .hd .l {
+  float: left;
+  display: inline;
+  margin-right: 25px;
+}
+/* line 21, sass/mods/_club-home.scss */
+.bk-club-home .hd .l .add-btn {
+  display: block;
+  width: 199px;
+  height: 48px;
+  background: url(../images/sprites.png) 0 -190px no-repeat;
+}
+/* line 26, sass/mods/_club-home.scss */
+.bk-club-home .hd .l .add-btn strong {
+  display: none;
+}
+/* line 31, sass/mods/_club-home.scss */
+.bk-club-home .hd .logo {
+  width: 200px;
+  height: 180px;
+  margin-top: -65px;
+  margin-bottom: 15px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid lightgrey;
+  box-shadow: -5px 5px 9px rgba(0, 0, 0, 0.18);
+}
+/* line 40, sass/mods/_club-home.scss */
+.bk-club-home .hd .logo i {
+  display: inline-block;
+  width: 0px;
+  height: 180px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+/* line 47, sass/mods/_club-home.scss */
+.bk-club-home .hd .logo img {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 52, sass/mods/_club-home.scss */
+.bk-club-home .hd .member-login {
+  position: absolute;
+  right: 18px;
+  top: -60px;
+  width: 172px;
+  height: 41px;
+  line-height: 41px;
+  text-indent: 45px;
+  background: url(../images/sprites.png) 0 -140px no-repeat;
+}
+/* line 61, sass/mods/_club-home.scss */
+.bk-club-home .hd .member-login a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #999;
+}
+/* line 67, sass/mods/_club-home.scss */
+.bk-club-home .hd .cnt {
+  overflow: hidden;
+  zoom: 1;
+}
+/* line 73, sass/mods/_club-home.scss */
+.bk-club-home .hd .cnt:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 78, sass/mods/_club-home.scss */
+.bk-club-home .hd .cnt dl {
+  float: left;
+  display: inline;
+  width: 520px;
+  padding-right: 10px;
+}
+/* line 84, sass/mods/_club-home.scss */
+.bk-club-home .hd .cnt dt {
+  margin-bottom: 10px;
+}
+/* line 87, sass/mods/_club-home.scss */
+.bk-club-home .hd .cnt .name {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Microsoft Yahei", arial;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #666;
+}
+/* line 95, sass/mods/_club-home.scss */
+.bk-club-home .hd .cnt .name:hover {
+  text-decoration: underline;
+}
+/* line 99, sass/mods/_club-home.scss */
+.bk-club-home .hd .cnt .richtext {
+  font-size: 14px;
+  line-height: 24px;
+  color: #999;
+}
+/* line 106, sass/mods/_club-home.scss */
+.bk-club-home .hd .info {
+  padding: 15px 0 0 15px;
+  overflow: hidden;
+  border-left: 1px solid #dddddd;
+}
+/* line 110, sass/mods/_club-home.scss */
+.bk-club-home .hd .info p {
+  margin-bottom: 15px;
+}
+/* line 113, sass/mods/_club-home.scss */
+.bk-club-home .hd .info i {
+  margin-right: 20px;
+}
+/* line 116, sass/mods/_club-home.scss */
+.bk-club-home .hd .info span {
+  display: inline-block;
+  vertical-align: middle;
+  color: #999;
+}
+/* line 126, sass/mods/_club-home.scss */
+.bk-club-home .km-info {
+  position: relative;
+  width: 960px;
+  height: 206px;
+  margin-bottom: 60px;
+  background: url(../images/c-km.png) 0 0 no-repeat;
+}
+/* line 132, sass/mods/_club-home.scss */
+.bk-club-home .km-info strong {
+  position: absolute;
+  left: 282px;
+  top: 85px;
+  letter-spacing: 33px;
+  font-size: 60px;
+  font-family: arial;
+  color: #162148;
+}
+/* line 143, sass/mods/_club-home.scss */
+.bk-club-home .member {
+  padding-top: 20px;
+}
+/* line 147, sass/mods/_club-home.scss */
+.bk-club-home .title {
+  position: relative;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #b8b8b8;
+}
+/* line 151, sass/mods/_club-home.scss */
+.bk-club-home .title b {
+  position: absolute;
+  left: 28px;
+  top: -13px;
+  padding: 0 18px;
+  font-family: "Microsoft Yahei", arial;
+  font-size: 24px;
+  background: #fff;
+  color: #333;
+}
+/* line 163, sass/mods/_club-home.scss */
+.bk-club-home .activity-list {
+  padding: 0 15px 50px;
+}
+/* line 165, sass/mods/_club-home.scss */
+.bk-club-home .activity-list ul {
+  margin-left: -76px;
+  zoom: 1;
+}
+/* line 168, sass/mods/_club-home.scss */
+.bk-club-home .activity-list ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 174, sass/mods/_club-home.scss */
+.bk-club-home .activity-list li {
+  display: inline;
+  float: left;
+  width: 236px;
+  margin-left: 76px;
+  padding: 35px 0 10px;
+}
+/* line 181, sass/mods/_club-home.scss */
+.bk-club-home .activity-list h3 {
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-family: "Microsoft Yahei", arial;
+  color: #333;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* line 189, sass/mods/_club-home.scss */
+.bk-club-home .activity-list h3 a {
+  text-decoration: none;
+  color: #333;
+}
+/* line 194, sass/mods/_club-home.scss */
+.bk-club-home .activity-list .pic {
+  height: 120px;
+  margin-bottom: 12px;
+}
+/* line 198, sass/mods/_club-home.scss */
+.bk-club-home .activity-list p {
+  height: 120px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #999;
+  overflow: hidden;
+}
+/* line 207, sass/mods/_club-home.scss */
+.bk-club-home .icon-win {
+  display: inline-block;
+  width: 53px;
+  height: 21px;
+  margin: 0 10px;
+  padding-left: 25px;
+  line-height: 21px;
+  vertical-align: middle;
+  text-indent: 5px;
+  background: url(../images/sprites.png) -90px -20px no-repeat;
+  color: #fff;
+}
+/* line 219, sass/mods/_club-home.scss */
+.bk-club-home .icon-bike {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 20px;
+  background: url(../images/sprites.png) -90px -50px no-repeat;
+}
+/* line 226, sass/mods/_club-home.scss */
+.bk-club-home .icon-member {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 20px;
+  background: url(../images/sprites.png) -120px -50px no-repeat;
+}
+/* line 233, sass/mods/_club-home.scss */
+.bk-club-home .icon-activity {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 20px;
+  background: url(../images/sprites.png) -150px -50px no-repeat;
+}
+/* line 243, sass/mods/_club-home.scss */
+.bk-club-home .bk-switch {
+  position: relative;
+  width: 742px;
+  margin: 0 auto;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  border-radius: 8px;
+  box-shadow: 0 0 3px #cccccc;
+}
+/* line 253, sass/mods/_club-home.scss */
+.bk-club-home .bk-switch .switch-content {
+  position: relative;
+  width: 742px;
+  height: 58px;
+  overflow: hidden;
+}
+/* line 259, sass/mods/_club-home.scss */
+.bk-club-home .bk-switch ul {
+  position: absolute;
+  left: 0;
+  top: 0;
+  zoom: 1;
+}
+/* line 265, sass/mods/_club-home.scss */
+.bk-club-home .bk-switch ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 270, sass/mods/_club-home.scss */
+.bk-club-home .bk-switch li {
+  display: inline;
+  float: left;
+}
+/* line 274, sass/mods/_club-home.scss */
+.bk-club-home .bk-switch li img {
+  width: 48px;
+  height: 48px;
+  margin: 0 8px;
+  padding: 4px;
+  background: #fff;
+  vertical-align: top;
+  border: 1px solid #d4d4d4;
+  box-shadow: 0 0 3px #cccccc;
+}
+/* line 284, sass/mods/_club-home.scss */
+.bk-club-home .bk-switch .left {
+  position: absolute;
+  left: -15px;
+  top: 30px;
+  padding: 5px 8px 5px 5px;
+  line-height: 0;
+  font-size: 0;
+  text-align: center;
+  background: #FFF;
+  border: 1px solid #d2d2d2;
+  cursor: pointer;
+  z-index: 5;
+}
+/* line 297, sass/mods/_club-home.scss */
+.bk-club-home .bk-switch .left i {
+  display: inline-block;
+  width: 10px;
+  height: 13px;
+  background: url(../images/sprites.png) -55px 0 no-repeat;
+}
+/* line 303, sass/mods/_club-home.scss */
+.bk-club-home .bk-switch .right {
+  position: absolute;
+  right: -15px;
+  top: 30px;
+  padding: 5px 5px 5px 8px;
+  line-height: 0;
+  font-size: 0;
+  text-align: center;
+  background: #FFF;
+  border: 1px solid #d2d2d2;
+  cursor: pointer;
+  z-index: 5;
+}
+/* line 316, sass/mods/_club-home.scss */
+.bk-club-home .bk-switch .right i {
+  display: inline-block;
+  width: 10px;
+  height: 13px;
+  background: url(../images/sprites.png) -65px 0 no-repeat;
+}
+/* line 322, sass/mods/_club-home.scss */
+.bk-club-home .bk-switch .bk-switch-detail {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  width: 360px;
+  padding: 10px 20px;
+  line-height: 18px;
+  font-size: 12px;
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  border-radius: 8px;
+  box-shadow: 0 0 3px #cccccc;
+  color: #999;
+}
+/* line 336, sass/mods/_club-home.scss */
+.bk-club-home .bk-switch .bk-switch-detail label {
+  font-weight: 700;
+  color: #666;
+}
+/* line 340, sass/mods/_club-home.scss */
+.bk-club-home .bk-switch .bk-switch-detail .arrow {
+  position: absolute;
+  left: 30px;
+  top: -8px;
+  width: 10px;
+  height: 8px;
+  background: url(../images/sprites.png) -45px 0 no-repeat;
+  overflow: hidden;
+}
+/* line 350, sass/mods/_club-home.scss */
+.bk-club-home .member-info {
+  top: -100px;
+  width: 260px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+/* line 357, sass/mods/_club-home.scss */
+.bk-club-home .member-info .mi-hd {
+  position: relative;
+  height: 160px;
+  margin-bottom: 60px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+/* line 363, sass/mods/_club-home.scss */
+.bk-club-home .member-info .mi-hd .pic {
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 50%;
+  bottom: -52px;
+  margin-left: -52px;
+  border-radius: 52px;
+  overflow: hidden;
+}
+/* line 376, sass/mods/_club-home.scss */
+.bk-club-home .member-info .name {
+  text-align: center;
+}
+/* line 378, sass/mods/_club-home.scss */
+.bk-club-home .member-info .name b {
+  margin-right: 5px;
+  font-size: 24px;
+  font-family: "Microsoft Yahei", arial;
+  color: #333;
+}
+/* line 384, sass/mods/_club-home.scss */
+.bk-club-home .member-info .name i {
+  font-size: 14px;
+  color: #999;
+}
+/* line 389, sass/mods/_club-home.scss */
+.bk-club-home .member-info dl {
+  padding-top: 20px;
+  text-align: center;
+}
+/* line 393, sass/mods/_club-home.scss */
+.bk-club-home .member-info dt {
+  height: 0;
+  margin: 0 10px 15px;
+  font-family: "Microsoft Yahei", arial;
+  font-size: 18px;
+  border-bottom: 1px solid #aaaaaa;
+}
+/* line 399, sass/mods/_club-home.scss */
+.bk-club-home .member-info dt b {
+  position: relative;
+  display: inline-block;
+  top: -10px;
+  padding: 0 10px;
+  background: #fff;
+  color: #353535;
+}
+/* line 408, sass/mods/_club-home.scss */
+.bk-club-home .member-info .mi-km-info {
+  margin-bottom: 15px;
+  font-family: "Microsoft Yahei", arial;
+  color: #333;
+  font-weight: 700;
+}
+/* line 413, sass/mods/_club-home.scss */
+.bk-club-home .member-info .mi-km-info b {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 419, sass/mods/_club-home.scss */
+.bk-club-home .ctrl {
+  background: #efefef;
+  zoom: 1;
+}
+/* line 422, sass/mods/_club-home.scss */
+.bk-club-home .ctrl:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 427, sass/mods/_club-home.scss */
+.bk-club-home .ctrl .s {
+  display: inline;
+  float: left;
+  width: 33%;
+  height: 40px;
+  padding: 20px 0;
+  text-align: center;
+  color: #666;
+}
+/* line 436, sass/mods/_club-home.scss */
+.bk-club-home .ctrl p {
+  margin-bottom: 15px;
+}
+/* line 439, sass/mods/_club-home.scss */
+.bk-club-home .ctrl b {
+  font-size: 18px;
+  font-style: 700;
+  font-family: "Microsoft Yahei", arial;
+  color: #353535;
+}
+/* line 448, sass/mods/_club-home.scss */
+.bk-club-home .icon-km {
+  position: relative;
+  left: -10px;
+  padding-left: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+/* line 455, sass/mods/_club-home.scss */
+.bk-club-home .icon-km b {
+  position: relative;
+  left: 5px;
+  display: inline-block;
+  width: 170px;
+  height: 28px;
+  line-height: 26px;
+  font-size: 18px;
+  font-weight: 400;
+  text-indent: 8px;
+  letter-spacing: .5em;
+  color: #fff;
+  background: url(../images/sprites.png) 0 -80px no-repeat;
+}
+
+/* line 472, sass/mods/_club-home.scss */
+.bk-club-home.w960 {
+  width: 960px;
+}

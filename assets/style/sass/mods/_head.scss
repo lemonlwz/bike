@@ -1,0 +1,78 @@
+.bk-head {
+  position: relative;
+  width: 980px;
+  margin: 0 auto ;
+  padding-bottom: 2px;
+  line-height: 1.2em;
+  font-size: 12px;
+  background: #fff;
+  border-radius: 6px 6px 0 0;
+  .logo {
+    position: absolute;
+    left: 40px;
+    top: 20px;
+  }
+  .nav {
+    padding-top: 45px;
+    zoom: 1;
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+    ul {
+      float: right;
+      margin-right: 130px;
+    }
+    li {
+      display: inline;
+      float: left;
+      margin-right: 10px;
+    }
+    a {
+      float: left;
+      padding: 15px;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: 'Microsoft Yahei', arial;
+      color: #333;
+      text-decoration: none;
+    }
+    .active a {
+      border-bottom: 5px solid #f33;
+    }
+  }
+
+  .r-t {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+
+  .search {
+    padding: 0 5px 2px;
+    background: #FFF;
+    border: 1px solid #ddd;
+    .txt {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      vertical-align: middle;
+      border: 0;
+      outline: none;
+    }
+    .btn {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      padding: 0;
+      vertical-align: middle;
+      background: none;
+      border: 0;
+      cursor: pointer;
+    }
+  }
+}
+.bk-head.w960 {
+  width: 960px;
+}

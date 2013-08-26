@@ -1,0 +1,20 @@
+
+.bk-wrap {
+  padding: 10px 0;
+  background: url(../images/bk-main-bg-repeat.png);
+  hr {
+    margin: 0 auto;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #fff;
+  }
+}
+
+@import 'mods/icons';
+@import 'mods/head';
+@import 'mods/foot';
+@import 'mods/banner';
+@import 'mods/intro';
+@import 'mods/about';
+@import 'mods/activity-list';
+@import 'mods/club-list';
+@import 'mods/club-home';

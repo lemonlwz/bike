@@ -1,0 +1,273 @@
+.bk-club-list {
+  width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  font-size: 12px;
+  background: #fff;
+  .hidden {
+    display: none;
+  }
+  .hd {
+    position: relative;
+  }
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: 'Microsoft Yahei', arial;
+    color: #131313;
+    .all {
+      display: inline-block;
+      vertical-align: top;
+      padding-top: 5px;
+      font-size: 14px;
+      cursor: pointer;
+      i, b {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      i {
+        width: 0;
+        height: 0;
+        margin: 0 0 -5px 5px;
+        font-size: 0;
+        line-height: 0;
+        border-style: solid dashed dashed dashed;
+        border-width: 5px;
+        border-color: #666 transparent transparent transparent;
+      }
+    }
+  }
+  .search {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 193px;
+    height: 27px;
+    padding-left: 10px;;
+    background: url(../images/sprites.png) 0 -110px no-repeat;
+    zoom: 1;
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+    .txt {
+      float: left;
+      display: inline;
+      width: 165px;
+      margin: 5px 0 0;
+      border: none;
+      outline: 0;
+    }
+    .btn {
+      float: left;
+      display: inline;
+      width: 16px;
+      height: 25px;
+      margin: 0;
+      padding: 0;
+      background: none;
+      border: 0;
+      cursor: pointer;
+    }
+  }
+  .filter {
+    margin-bottom: 20px;
+    color: #666;
+    li {
+      margin-bottom: 10px;
+    }
+    label {
+      margin-right: 5px;
+    }
+    a {
+      padding: 3px 5px;
+      text-decoration: none;
+      color: #999;
+    }
+    .active {
+      background: #c00;
+      color: #fff;
+    }
+  }
+  .bd {
+  }
+  .club-list {
+    overflow: hidden;
+    li {
+      padding: 20px;
+      border-top: 1px dashed #ccc;
+      zoom: 1;
+      &:after {
+        content: '';
+        display: table;
+        clear: both;
+      }
+    }
+    .logo {
+      float: left;
+      display: inline;
+      width: 120px;
+      height: 100px;
+      margin-right: 25px;
+      text-align: center;
+      border: 1px solid #d3d3d3;
+      i {
+        display: inline-block;
+        width: 0px;
+        height: 100px;
+        vertical-align: middle;
+        overflow: hidden;
+      }
+      img {
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+    .cnt {
+      //float: left;
+      //display: inline;
+      //width: 560px;
+      overflow: hidden;
+      zoom: 1;
+      &:after {
+        content: '';
+        display: table;
+        clear: both;
+      }
+      dl {
+        float: left;
+        display: inline;
+        width: 520px;
+        padding-right: 10px;
+      }
+      dt {
+        margin-bottom: 10px;
+      }
+      .name {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #666;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      .km-info {
+        margin-bottom: 15px;
+        font-family: 'Microsoft Yahei', arial;
+        color: #333;
+        font-weight: 700;
+        b {
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+      .richtext {
+        line-height: 24px;
+        color: #999;
+      }
+    }
+
+    .info {
+      padding: 15px 0 0 15px;
+      overflow: hidden;
+      border-left: 1px solid #ddd;
+      p {
+        margin-bottom: 15px;
+      }
+      i {
+        margin-right: 20px;
+      }
+      span {
+        display: inline-block;
+        vertical-align: middle;
+        color: #999;
+      }
+    }
+  }
+
+  .icon-start {
+    display: inline-block;
+    width: 58px;
+    height: 19px;
+    margin-right: 10px;
+    padding-left: 25px;
+    line-height: 19px;
+    vertical-align: middle;
+    text-indent: 3px;
+    background: url(../images/sprites.png) -90px 0 no-repeat;
+    color: #fff;
+  }
+  .icon-win {
+    display: inline-block;
+    width: 53px;
+    height: 21px;
+    margin-right: 10px;
+    padding-left: 25px;
+    line-height: 21px;
+    vertical-align: middle;
+    text-indent: 5px;
+    background: url(../images/sprites.png) -90px -20px no-repeat;
+    color: #fff;
+  }
+  .icon-num {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    padding: 2px 5px;
+    font-weight: 700;
+    background: #666;
+    border-radius: 3px;
+    color: #fff;
+  }
+  .icon-km {
+    position: relative;
+    left: -10px;
+    padding-left: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    b {
+      position: relative;
+      left: 5px;
+      display: inline-block;
+      width: 170px;
+      height: 28px;
+      line-height: 26px;
+      font-size: 18px;
+      font-weight: 400;
+      text-indent: 8px;
+      letter-spacing: .5em;
+      color: #fff;
+      background: url(../images/sprites.png) 0 -80px no-repeat;
+    }
+  }
+  .icon-bike {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 20px;
+    background: url(../images/sprites.png) -90px -50px no-repeat;
+  }
+  .icon-member {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 20px;
+    background: url(../images/sprites.png) -120px -50px no-repeat;
+  }
+  .icon-activity {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 20px;
+    background: url(../images/sprites.png) -150px -50px no-repeat;
+  }
+}
+
+.bk-club-list.w960 {
+  width: 960px;
+}

@@ -1,0 +1,115 @@
+.bk-banner {
+  position: relative;
+  width: 980px;
+  height: 333px;
+  margin: 0 auto;
+  ul {
+    position: relative;
+    height: 333px;
+    transition: left 800ms ease-in-out;
+  }
+  li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 333px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: opacity 800ms ease-in-out;
+  }
+  .slider-number {
+    position: absolute;
+    left: 50%;
+    bottom: .8em;
+    .bd {
+      margin-left: -50%;
+    }
+    a {
+      float: left;
+      width: 14px;
+      height: 14px;
+      margin-right: 10px;
+      text-indent: -9999em;
+      overflow: hidden;
+      outline: 0;
+      background: url('../images/sprites.png') -31px -0px no-repeat;
+    }
+    .active {
+      background-position: -16px 0;
+    }
+  }
+  .less-count {
+    display: none;
+  }
+  .prev {
+    position: absolute;
+    left: -7px;
+    top: 140px;
+    display: none;
+    width: 40px;
+    height: 44px;
+    background: url('../images/sprites.png') 0 -16px no-repeat;
+    z-index: 5;
+    cursor: pointer;
+  }
+  .next {
+    position: absolute;
+    right: -7px;
+    top: 140px;
+    display: none;
+    width: 40px;
+    height: 44px;
+    background: url('../images/sprites.png') -40px -16px no-repeat;
+    z-index: 5;
+    cursor: pointer;
+  }
+  .info {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    width: 349px;
+    height: 184px;
+    padding: 26px 32px;
+    border-radius: 6px;
+    overflow: hidden;
+    color: #FFF;
+    z-index: 5;
+    .bg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      background: rgba(0,0,0,.8);
+      filter:alpha(opacity=80);
+    }
+    h3 {
+      position: relative;
+      margin-bottom: 20px;
+      font-size: 24px;
+      font-family: 'Microsoft Yahei', arial;
+    }
+    .richtext {
+      position: relative;
+      line-height: 30px;
+      font-size: 14px;
+    }
+    .more {
+      position: relative;
+      float: right;
+      text-decoration: none;
+      color: #666;
+    }
+  }
+}
+
+.bk-banner.w960 {
+  width: 960px;
+}
+
+:root .bk-banner .info .bg {
+  filter: none;
+}

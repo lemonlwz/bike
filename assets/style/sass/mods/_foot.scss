@@ -1,0 +1,49 @@
+.bk-foot {
+  width: 900px;
+  margin: 0 auto;
+  padding: 40px 40px 20px;
+  background: #f6f6f6;
+  border-radius: 0 0 6px 6px;
+  zoom: 1;
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .logo {
+    display: inline;
+    float: left;
+    margin-right: 50px;
+  }
+  .richtext {
+    display: inline;
+    float: left;
+    width: 520px;
+    margin-right: 70px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #999;
+    span {
+      color: #666;
+    }
+  }
+  .qr-code {
+    display: inline;
+    float: right;
+    margin-top: -12px;
+  }
+  .cpr {
+    clear: both;
+    padding-top: 40px;
+    text-align: right;
+    font-size: 12px;
+    color: #999;
+    a {
+      color: #666;
+      text-decoration: none;
+    }
+  }
+}
+.bk-foot.w960 {
+  width: 880px;
+}
