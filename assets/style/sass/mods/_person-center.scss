@@ -1,0 +1,169 @@
+.bk-person-center {
+  width: 900px;
+  margin: 0 auto;
+  //padding: 30px;
+  font-size: 12px;
+  background: #fff;
+  .person-pic {
+    position: relative;
+    width: 192px;
+    height: 172px;
+    margin: -160px 0 0 20px;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 9px rgba(0,0,0,.18);
+  }
+  .nav {
+    position: relative;
+    margin: -105px 0 0 280px;
+    zoom: 1;
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+    li {
+      float: left;
+      display: inline;
+      width: 104px;
+      height: 76px;
+      margin-right: 16px;
+      padding: 10px 0 6px 4px;
+      line-height: 1.5;
+      font-family: 'Microsoft Yahei', arial;
+      text-align: center;
+      text-decoration: none;
+      background: url(../images/sprites.png) 0 -350px no-repeat;
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+      b {
+        display: inline;
+        float: left;
+        width: 100%;
+        font-size: 24px;
+      }
+      span {
+        font-size: 14px;
+      }
+    }
+    .active {
+      background-position: 0 -250px;
+      a {
+        color: #fff;
+      }
+    }
+  }
+  .inner {
+    background-color: #fff;
+    overflow: hidden;
+    zoom: 1;
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+    .aside {
+      display: inline;
+      float: left;
+      margin-bottom: -9997em;
+      padding-bottom: 9999em;
+      padding-top: 40px;
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 220px;
+      background-color: #ededed;
+      .name {
+        margin-bottom: 10px;
+        font-family: 'Microsoft Yahei', arial;
+        font-size: 24px;
+        text-align: center;
+        color: #033;
+      }
+      label {
+        display: block;
+        text-align: center;
+        font-size: 14px;
+        color: #999;
+      }
+      .ctrl {
+        padding: 20px 0;
+        text-align: center;
+        .btn {
+          display: inline-block;
+          vertical-align: middle;
+          padding: 8px 12px;
+          background: #fff;
+          text-decoration: none;
+          border-radius: 2px;
+          color: #666;
+          i, span {
+            display: inline-block;
+            vertical-align: middle;
+          }
+          i {
+            margin-right: 5px;
+          }
+        }
+      }
+      .info {
+        margin-bottom: 10px;
+        line-height: 24px;
+        color: #666;
+      }
+      .line {
+        margin: 10px 0;
+        border-bottom: 1px dotted #d0d0d0;
+      }
+      dl {
+        line-height: 24px;
+        color: #666;
+      }
+    }
+    .main {
+      display: inline;
+      float: left;
+      margin-bottom: -9999em;
+      padding-bottom: 9999em;
+    }
+  }
+  .icon-hand {
+    display: inline-block;
+    vertical-align: middle;
+    width: 14px;
+    height: 12px;
+    background: url(../images/sprites.png) -120px -250px no-repeat;
+  }
+  .icon-letter {
+    display: inline-block;
+    vertical-align: middle;
+    width: 13px;
+    height: 11px;
+    background: url(../images/sprites.png) -140px -250px no-repeat;
+  }
+  .icon-qq {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 20px;
+    background: url(../images/sprites.png) -120px -270px no-repeat;
+    strong {
+      display: none;
+    }
+  }
+  .icon-sina {
+    display: inline-block;
+    vertical-align: middle;
+    width: 21px;
+    height: 20px;
+    background: url(../images/sprites.png) -150px -270px no-repeat;
+    strong {
+      display: none;
+    }
+  }
+}
+
+.bk-person-center.w960 {
+  width: 960px;
+}

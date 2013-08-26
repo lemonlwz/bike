@@ -1849,3 +1849,202 @@
 .bk-club-home.w960 {
   width: 960px;
 }
+
+/* line 1, sass/mods/_person-center.scss */
+.bk-person-center {
+  width: 900px;
+  margin: 0 auto;
+  font-size: 12px;
+  background: #fff;
+}
+/* line 7, sass/mods/_person-center.scss */
+.bk-person-center .person-pic {
+  position: relative;
+  width: 192px;
+  height: 172px;
+  margin: -160px 0 0 20px;
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.18);
+}
+/* line 16, sass/mods/_person-center.scss */
+.bk-person-center .nav {
+  position: relative;
+  margin: -105px 0 0 280px;
+  zoom: 1;
+}
+/* line 20, sass/mods/_person-center.scss */
+.bk-person-center .nav:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 25, sass/mods/_person-center.scss */
+.bk-person-center .nav li {
+  float: left;
+  display: inline;
+  width: 104px;
+  height: 76px;
+  margin-right: 16px;
+  padding: 10px 0 6px 4px;
+  line-height: 1.5;
+  font-family: "Microsoft Yahei", arial;
+  text-align: center;
+  text-decoration: none;
+  background: url(../images/sprites.png) 0 -350px no-repeat;
+}
+/* line 37, sass/mods/_person-center.scss */
+.bk-person-center .nav li a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 41, sass/mods/_person-center.scss */
+.bk-person-center .nav li b {
+  display: inline;
+  float: left;
+  width: 100%;
+  font-size: 24px;
+}
+/* line 47, sass/mods/_person-center.scss */
+.bk-person-center .nav li span {
+  font-size: 14px;
+}
+/* line 51, sass/mods/_person-center.scss */
+.bk-person-center .nav .active {
+  background-position: 0 -250px;
+}
+/* line 53, sass/mods/_person-center.scss */
+.bk-person-center .nav .active a {
+  color: #fff;
+}
+/* line 58, sass/mods/_person-center.scss */
+.bk-person-center .inner {
+  background-color: #fff;
+  overflow: hidden;
+  zoom: 1;
+}
+/* line 62, sass/mods/_person-center.scss */
+.bk-person-center .inner:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 67, sass/mods/_person-center.scss */
+.bk-person-center .inner .aside {
+  display: inline;
+  float: left;
+  margin-bottom: -9997em;
+  padding-bottom: 9999em;
+  padding-top: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 220px;
+  background-color: #ededed;
+}
+/* line 77, sass/mods/_person-center.scss */
+.bk-person-center .inner .aside .name {
+  margin-bottom: 10px;
+  font-family: "Microsoft Yahei", arial;
+  font-size: 24px;
+  text-align: center;
+  color: #033;
+}
+/* line 84, sass/mods/_person-center.scss */
+.bk-person-center .inner .aside label {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}
+/* line 90, sass/mods/_person-center.scss */
+.bk-person-center .inner .aside .ctrl {
+  padding: 20px 0;
+  text-align: center;
+}
+/* line 93, sass/mods/_person-center.scss */
+.bk-person-center .inner .aside .ctrl .btn {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 8px 12px;
+  background: #fff;
+  text-decoration: none;
+  border-radius: 2px;
+  color: #666;
+}
+/* line 101, sass/mods/_person-center.scss */
+.bk-person-center .inner .aside .ctrl .btn i, .bk-person-center .inner .aside .ctrl .btn span {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 105, sass/mods/_person-center.scss */
+.bk-person-center .inner .aside .ctrl .btn i {
+  margin-right: 5px;
+}
+/* line 110, sass/mods/_person-center.scss */
+.bk-person-center .inner .aside .info {
+  margin-bottom: 10px;
+  line-height: 24px;
+  color: #666;
+}
+/* line 115, sass/mods/_person-center.scss */
+.bk-person-center .inner .aside .line {
+  margin: 10px 0;
+  border-bottom: 1px dotted #d0d0d0;
+}
+/* line 119, sass/mods/_person-center.scss */
+.bk-person-center .inner .aside dl {
+  line-height: 24px;
+  color: #666;
+}
+/* line 124, sass/mods/_person-center.scss */
+.bk-person-center .inner .main {
+  display: inline;
+  float: left;
+  margin-bottom: -9999em;
+  padding-bottom: 9999em;
+}
+/* line 131, sass/mods/_person-center.scss */
+.bk-person-center .icon-hand {
+  display: inline-block;
+  vertical-align: middle;
+  width: 14px;
+  height: 12px;
+  background: url(../images/sprites.png) -120px -250px no-repeat;
+}
+/* line 138, sass/mods/_person-center.scss */
+.bk-person-center .icon-letter {
+  display: inline-block;
+  vertical-align: middle;
+  width: 13px;
+  height: 11px;
+  background: url(../images/sprites.png) -140px -250px no-repeat;
+}
+/* line 145, sass/mods/_person-center.scss */
+.bk-person-center .icon-qq {
+  display: inline-block;
+  vertical-align: middle;
+  width: 25px;
+  height: 20px;
+  background: url(../images/sprites.png) -120px -270px no-repeat;
+}
+/* line 151, sass/mods/_person-center.scss */
+.bk-person-center .icon-qq strong {
+  display: none;
+}
+/* line 155, sass/mods/_person-center.scss */
+.bk-person-center .icon-sina {
+  display: inline-block;
+  vertical-align: middle;
+  width: 21px;
+  height: 20px;
+  background: url(../images/sprites.png) -150px -270px no-repeat;
+}
+/* line 161, sass/mods/_person-center.scss */
+.bk-person-center .icon-sina strong {
+  display: none;
+}
+
+/* line 167, sass/mods/_person-center.scss */
+.bk-person-center.w960 {
+  width: 960px;
+}
