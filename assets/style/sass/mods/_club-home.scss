@@ -128,7 +128,9 @@
     width: 960px;
     height: 206px;
     margin-bottom: 60px;
+    font-family: 'Microsoft Yahei', arial;
     background: url(../images/c-km.png) 0 0 no-repeat;
+    font-weight: 700;
     strong {
       position: absolute;
       left: 282px;
@@ -459,10 +461,11 @@
       width: 170px;
       height: 28px;
       line-height: 26px;
+      text-align: left;
       font-size: 18px;
       font-weight: 400;
       text-indent: 8px;
-      letter-spacing: .5em;
+      letter-spacing: 9px;
       color: #fff;
       background: url(../images/sprites.png) 0 -80px no-repeat;
     }
