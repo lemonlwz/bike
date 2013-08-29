@@ -350,7 +350,7 @@
   }
 
   .member-info {
-    top: -100px;
+    top: -420px;
     width: 260px;
     //height: 317px;
     background: #fff;
@@ -468,6 +468,24 @@
       letter-spacing: 9px;
       color: #fff;
       background: url(../images/sprites.png) 0 -80px no-repeat;
+    }
+  }
+  .bt {
+    text-align: center;
+    color: #999;
+    p {
+      margin-bottom: 10px;
+    }
+    .close {
+      display: none;
+      color: #999;
+      i {
+        margin-right: 5px;
+      }
+      span {
+        display: inline-block;
+        vertical-align: middle;
+      }
     }
   }
 }

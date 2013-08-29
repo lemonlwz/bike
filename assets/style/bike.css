@@ -20,6 +20,17 @@
   background: url("../images/sprites.png") 0 0 no-repeat;
 }
 
+/* line 10, sass/mods/_icons.scss */
+.bk-icon-close {
+  display: inline-block;
+  vertical-align: middle;
+  width: 10px;
+  height: 10px;
+  font-size: 0;
+  line-height: 0;
+  background: url("../images/sprites.png") -160px -250px no-repeat;
+}
+
 /* line 1, sass/mods/_head.scss */
 .bk-head {
   position: relative;
@@ -118,21 +129,22 @@
   padding: 40px 40px 20px;
   background: #f6f6f6;
   border-radius: 0 0 6px 6px;
+  color: #666;
   zoom: 1;
 }
-/* line 8, sass/mods/_foot.scss */
+/* line 9, sass/mods/_foot.scss */
 .bk-foot:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 13, sass/mods/_foot.scss */
+/* line 14, sass/mods/_foot.scss */
 .bk-foot .logo {
   display: inline;
   float: left;
   margin-right: 50px;
 }
-/* line 18, sass/mods/_foot.scss */
+/* line 19, sass/mods/_foot.scss */
 .bk-foot .richtext {
   display: inline;
   float: left;
@@ -142,31 +154,35 @@
   font-size: 12px;
   color: #999;
 }
-/* line 26, sass/mods/_foot.scss */
+/* line 27, sass/mods/_foot.scss */
 .bk-foot .richtext span {
   color: #666;
 }
-/* line 30, sass/mods/_foot.scss */
+/* line 31, sass/mods/_foot.scss */
 .bk-foot .qr-code {
   display: inline;
   float: right;
   margin-top: -12px;
 }
-/* line 35, sass/mods/_foot.scss */
+/* line 36, sass/mods/_foot.scss */
 .bk-foot .cpr {
   clear: both;
   padding-top: 40px;
   text-align: right;
   font-size: 12px;
-  color: #999;
+  color: #666;
 }
-/* line 41, sass/mods/_foot.scss */
+/* line 42, sass/mods/_foot.scss */
 .bk-foot .cpr a {
   color: #666;
   text-decoration: none;
 }
+/* line 46, sass/mods/_foot.scss */
+.bk-foot .cpr .gray {
+  color: #999;
+}
 
-/* line 47, sass/mods/_foot.scss */
+/* line 51, sass/mods/_foot.scss */
 .bk-foot.w960 {
   width: 880px;
 }
@@ -1715,7 +1731,7 @@
 }
 /* line 352, sass/mods/_club-home.scss */
 .bk-club-home .member-info {
-  top: -100px;
+  top: -420px;
   width: 260px;
   background: #fff;
   border-radius: 6px;
@@ -1847,8 +1863,31 @@
   color: #fff;
   background: url(../images/sprites.png) 0 -80px no-repeat;
 }
+/* line 473, sass/mods/_club-home.scss */
+.bk-club-home .bt {
+  text-align: center;
+  color: #999;
+}
+/* line 476, sass/mods/_club-home.scss */
+.bk-club-home .bt p {
+  margin-bottom: 10px;
+}
+/* line 479, sass/mods/_club-home.scss */
+.bk-club-home .bt .close {
+  display: none;
+  color: #999;
+}
+/* line 482, sass/mods/_club-home.scss */
+.bk-club-home .bt .close i {
+  margin-right: 5px;
+}
+/* line 485, sass/mods/_club-home.scss */
+.bk-club-home .bt .close span {
+  display: inline-block;
+  vertical-align: middle;
+}
 
-/* line 475, sass/mods/_club-home.scss */
+/* line 493, sass/mods/_club-home.scss */
 .bk-club-home.w960 {
   width: 960px;
 }

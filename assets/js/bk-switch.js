@@ -64,12 +64,16 @@
         html = $parent.find('.J_bkSwitchDetail' + index);
 
         if(evt.type !== 'mouseleave'){
+          $('.J_bkSwitchDetail').hide();
+          if($item.attr('data-rendering') == 'rendering'){
+            return false;
+          }
           if(html.length){
             clearTimeout(_this.timer);
-            $parent.find('.J_bkSwitchDetail').hide();
             html.show();
           } else {
             //html = $('<div class="' + _this.options.itemCls + ' J_bkSwitchDetail J_bkSwitchDetail' + index + '">');
+            $item.attr('data-rendering', 'rendering');
             if(_this.template.length){
               var params = {};
               $.each(_this.options.params, function(key, attr){
@@ -82,6 +86,7 @@
                 success: function(data){
                   html = $(_this.template).tmpl(data);
                   render();
+                  $item.attr('data-rendering', '');
                 }
               });
             } else{
@@ -95,6 +100,7 @@
                 '</div>'
               ].join(''));
               render();
+              $item.attr('data-rendering', '');
             }
             function render(){
 
