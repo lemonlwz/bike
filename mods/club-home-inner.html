@@ -11,9 +11,9 @@
     <div class="hd">
       <div class="l">
         <div class="logo"><i></i><img src="../assets/images/logo.png" alt="" /></div>
-        <div class="bt">
+        <div class="J_bt bt">
           <p class="if">你是这个俱乐部的荣誉会员</p>
-          <p class="ct"><a href="#" class="close"><i class="bk-icon-close"></i><span>退出</span></a></p>
+          <p class="ct"><a href="#" class="J_close close"><i class="bk-icon-close"></i><span>退出</span></a></p>
         </div>
       </div>
       <div class="member-login"><a href="#">俱乐部管理员登录</a></div>
@@ -165,6 +165,15 @@
         id: 'data-id'
       },
       template: '.J_switchTmpl'
+    });
+
+    $('.J_bt').on('mouseenter mouseleave', function(evt){
+      var $target = $(evt.currentTarget);
+      if(evt.type === 'mouseenter'){
+        $target.find('.J_close').show();
+      } else {
+        $target.find('.J_close').hide();
+      }
     });
   </script>
 </body>

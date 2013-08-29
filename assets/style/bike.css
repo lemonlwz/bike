@@ -1865,29 +1865,30 @@
 }
 /* line 473, sass/mods/_club-home.scss */
 .bk-club-home .bt {
+  height: 40px;
   text-align: center;
   color: #999;
 }
-/* line 476, sass/mods/_club-home.scss */
+/* line 477, sass/mods/_club-home.scss */
 .bk-club-home .bt p {
   margin-bottom: 10px;
 }
-/* line 479, sass/mods/_club-home.scss */
+/* line 480, sass/mods/_club-home.scss */
 .bk-club-home .bt .close {
   display: none;
   color: #999;
 }
-/* line 482, sass/mods/_club-home.scss */
+/* line 483, sass/mods/_club-home.scss */
 .bk-club-home .bt .close i {
   margin-right: 5px;
 }
-/* line 485, sass/mods/_club-home.scss */
+/* line 486, sass/mods/_club-home.scss */
 .bk-club-home .bt .close span {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 493, sass/mods/_club-home.scss */
+/* line 494, sass/mods/_club-home.scss */
 .bk-club-home.w960 {
   width: 960px;
 }
