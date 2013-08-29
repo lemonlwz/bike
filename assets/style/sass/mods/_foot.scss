@@ -51,3 +51,84 @@
 .bk-foot.w960 {
   width: 880px;
 }
+
+.person-popup {
+  width: 450px;
+  font-size: 12px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.11);
+  overflow: hidden;
+  .hd {
+    position: relative;
+    padding-top: 220px;
+    .pic {
+      position: absolute;
+      left: 50%;
+      top: 80px;
+      width: 141px;
+      height: 141px;
+      margin: 0 0 0 -70px;
+      z-index: 5;
+      img {
+        max-width: 100%;
+      }
+    }
+    .bg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 166px;
+      background: #0f69b1;
+      z-index: 3;
+    }
+    .close {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      width: 20px;
+      height: 20px;
+      background: url(../images/sprites.png) -180px -250px no-repeat;
+      cursor: pointer;
+      z-index: 4;
+    }
+    .name {
+      margin: 10px 0;
+      text-align: center;
+      font-size: 24px;
+      font-family: 'Microsoft Yahei', arial;
+      color: #110f0f;
+    }
+    .info {
+      margin: 10px 0 20px;
+      text-align: center;
+      color: #999;
+    }
+    .richtext {
+      margin-bottom: 20px;
+      padding: 0 45px;
+      line-height: 20px;
+      color: #6c6c76;
+    }
+  }
+  .bt {
+    padding: 15px 40px 20px;
+    line-height: 20px;
+    background: #e8e8e8;
+    color: #6c6c76;
+  }
+}
+
+.d-titleBar {
+  display: none;
+}
+.d-buttons {
+  display: none;
+}
+
+.d-mask {
+  background: #000;
+  opacity: .7;
+  filter: alpha(opacity=70);
+}

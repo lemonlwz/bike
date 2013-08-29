@@ -13,22 +13,49 @@
 <span>HEYBIKE骑行宣言：</span>我志愿加入骑行行列，遵守交通规则，听从组织指挥，履行骑行义务，量力而行，互帮互助，自负风险。我承诺，无论何时、何地，无论何种目的，时刻保持乐观的骑行态度，执行顽强的骑行作风，一路向前，行者无疆。
     </div>
     <div class="qr-code"><img src="../assets/images/qr-code.png" alt="骑行天行二维码" /></div>
-    <div class="cpr">Copyright by <a href="#">www.heybike.com</a> <span class="gray">2013</span> |  heybike骑行联盟  <a href="#" class="gray">免责条款</a>   |    法律顾问律师:<span class="gray">刘锋律师</span>
+    <div class="cpr">Copyright by <a href="#">www.heybike.com</a> <span class="gray">2013</span> |  heybike骑行联盟  <a href="#" class="gray">免责条款</a>   |    法律顾问律师:<span class="J_lawyer gray">刘锋律师</span>
     </div>
   </div>
-  <div class="person-popup">
-    <div class="hd">
-      <div class="pic"><img src="" alt="" /></div>
-      <p class="name">刘锋律师</p>
-      <p class="info">执业证号：14401200210750961</p>
-      <div class="richtext">
-HEYBIKE网站法律顾问律师,毕业于中国政法大学，广东法制盛邦律师事务所合伙人；广东省律师协会第九届民事法律委员会委员；广东省律师协会第十届公司法法律委员会委员；广东法制盛邦律师事务所法律顾问部副部长。十二年的律师执业经验，有丰富的诉讼经验和技巧，担任过数十家外资、港资、台资和大陆公司的法律顾问，在防范公司劳资风险、经营风险及公司股东纠纷等方面有独到见解和处置方案，现致力于户外运动法律风险防范的研究，为户外产品销售者、网站平台提供者和广大户外爱好者提供专业的法律支持。
+
+  <script type="text/tmpl" class="J_lawyerTmpl">
+    <div class="person-popup">
+      <div class="hd">
+        <i class="J_close close "></i>
+        <div class="pic"><img src="../assets/images/lawyer.png" alt="" /></div>
+        <p class="name">刘锋律师</p>
+        <p class="info">执业证号：14401200210750961</p>
+        <div class="richtext">
+          HEYBIKE网站法律顾问律师,毕业于中国政法大学，广东法制盛邦律师事务所合伙人；广东省律师协会第九届民事法律委员会委员；广东省律师协会第十届公司法法律委员会委员；广东法制盛邦律师事务所法律顾问部副部长。
+          <br/>
+          <br/>
+          十二年的律师执业经验，有丰富的诉讼经验和技巧，担任过数十家外资、港资、台资和大陆公司的法律顾问，在防范公司劳资风险、经营风险及公司股东纠纷等方面有独到见解和处置方案，现致力于户外运动法律风险防范的研究，为户外产品销售者、网站平台提供者和广大户外爱好者提供专业的法律支持。
+        </div>
+        <i class="bg"></i>
       </div>
-      <i class="bg"></i>
+      <div class="bt">
+        联系电话：13503038858    网站： http://www.law48.com
+        <br />
+        电子邮箱： 13503038858@139.com    QQ：317472587
+        <br />
+        微信号：liulawyer888     新浪微博：广州刘锋律师
+      </div>
     </div>
-    <div class="bt">
-联系电话：13503038858    网站： http://www.law48.com电子邮箱： 13503038858@139.com    QQ：317472587微信号：liulawyer888     新浪微博：广州刘锋律师
-    </div>
-  </div>
+  </script>
+  <script src="../assets/lib/jquery.js" type="text/javascript"></script>
+  <script src="../assets/lib/jquery.tmpl.js" type="text/javascript"></script>
+  <script src="../assets/js/artDialog.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    $('.J_lawyer').on('click', function(evt){
+      var html = $('.J_lawyerTmpl').tmpl({});
+      var dialog = art.dialog({
+        content: html[0],
+        padding: 0,
+        lock: true
+      });
+      html.on('click', '.J_close', function(evt){
+        dialog.close();
+      });
+    });
+  </script>
 </body>
 </html>
