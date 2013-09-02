@@ -6,8 +6,8 @@
 /* line 5, sass/bike.scss */
 .bk-wrap hr {
   margin: 0 auto;
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid white;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
 }
 
 /* line 1, sass/mods/_icons.scss */
@@ -76,13 +76,13 @@
   padding: 15px;
   font-size: 16px;
   font-weight: 700;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   color: #333;
   text-decoration: none;
 }
 /* line 41, sass/mods/_head.scss */
 .bk-head .nav .active a {
-  border-bottom: 5px solid #ff3333;
+  border-bottom: 5px solid #f33;
 }
 /* line 46, sass/mods/_head.scss */
 .bk-head .r-t {
@@ -94,7 +94,7 @@
 .bk-head .search {
   padding: 0 5px 2px;
   background: #FFF;
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
 }
 /* line 56, sass/mods/_head.scss */
 .bk-head .search .txt {
@@ -241,7 +241,7 @@
   margin: 10px 0;
   text-align: center;
   font-size: 24px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   color: #110f0f;
 }
 /* line 103, sass/mods/_foot.scss */
@@ -389,7 +389,7 @@
   position: relative;
   margin-bottom: 20px;
   font-size: 24px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
 }
 /* line 95, sass/mods/_banner.scss */
 .bk-banner .info .richtext {
@@ -426,7 +426,7 @@
 .bk-intro .new {
   padding: 30px 0;
   text-align: center;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   border-bottom: 1px solid #eaeaea;
 }
 /* line 11, sass/mods/_intro.scss */
@@ -472,7 +472,7 @@
 .bk-intro .activity-list h3 {
   margin-bottom: 12px;
   font-size: 18px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   color: #333;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -515,7 +515,7 @@
 /* line 79, sass/mods/_intro.scss */
 .bk-intro .bk-active .list h3 {
   margin-bottom: 10px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   font-size: 18px;
   color: #333;
 }
@@ -558,7 +558,7 @@
 /* line 116, sass/mods/_intro.scss */
 .bk-intro .bk-switch-wp h3 {
   margin-bottom: 18px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   font-size: 18px;
   color: #333;
 }
@@ -570,7 +570,7 @@
   background: #fff;
   border: 1px solid #d4d4d4;
   border-radius: 8px;
-  box-shadow: 0 0 3px #cccccc;
+  box-shadow: 0 0 3px #ccc;
 }
 /* line 132, sass/mods/_intro.scss */
 .bk-intro .bk-switch .switch-content {
@@ -606,7 +606,7 @@
   background: #fff;
   vertical-align: top;
   border: 1px solid #d4d4d4;
-  box-shadow: 0 0 3px #cccccc;
+  box-shadow: 0 0 3px #ccc;
 }
 /* line 163, sass/mods/_intro.scss */
 .bk-intro .bk-switch .left {
@@ -662,7 +662,7 @@
   background: #fff;
   border: 1px solid #d4d4d4;
   border-radius: 8px;
-  box-shadow: 0 0 3px #cccccc;
+  box-shadow: 0 0 3px #ccc;
   color: #999;
 }
 /* line 215, sass/mods/_intro.scss */
@@ -750,7 +750,7 @@
   margin-bottom: 10px;
   line-height: 34px;
   font-size: 24px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   color: #011302;
 }
 /* line 64, sass/mods/_about.scss */
@@ -787,9 +787,9 @@
   margin: 0 10px;
   padding: 10px 26px;
   font-size: 14px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   background: #f4f4f4;
-  border-bottom: 1px dotted #dddddd;
+  border-bottom: 1px dotted #ddd;
   color: #333;
 }
 /* line 15, sass/mods/_activity-list.scss */
@@ -804,7 +804,7 @@
 .bk-activity-list .list li {
   zoom: 1;
   padding: 25px 20px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #eee;
 }
 /* line 25, sass/mods/_activity-list.scss */
 .bk-activity-list .list li:after {
@@ -831,7 +831,7 @@
   display: block;
   margin-bottom: 10px;
   font-size: 14px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
 }
 /* line 52, sass/mods/_activity-list.scss */
 .bk-activity-list .hot {
@@ -846,7 +846,7 @@
   margin-bottom: 5px;
   line-height: 24px;
   font-size: 18px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
 }
 /* line 63, sass/mods/_activity-list.scss */
 .bk-activity-list h4 a {
@@ -857,7 +857,7 @@
 .bk-activity-list .time {
   margin-bottom: 10px;
   font-size: 14px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   color: #999;
 }
 /* line 74, sass/mods/_activity-list.scss */
@@ -879,7 +879,7 @@
   display: inline-block;
   padding: 15px 45px;
   font-size: 18px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   text-decoration: none;
   background: #83ad02;
   color: #FFF;
@@ -1092,7 +1092,7 @@
   display: inline-block;
   padding: 5px 14px;
   background-color: #fff;
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
@@ -1145,7 +1145,7 @@
 .bk-club-list h2 {
   margin-bottom: 20px;
   font-size: 24px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   color: #131313;
 }
 /* line 18, sass/mods/_club-list.scss */
@@ -1170,7 +1170,7 @@
   line-height: 0;
   border-style: solid dashed dashed dashed;
   border-width: 5px;
-  border-color: #666666 transparent transparent transparent;
+  border-color: #666 transparent transparent transparent;
 }
 /* line 40, sass/mods/_club-list.scss */
 .bk-club-list .search {
@@ -1241,7 +1241,7 @@
 /* line 97, sass/mods/_club-list.scss */
 .bk-club-list .club-list li {
   padding: 20px;
-  border-top: 1px dashed #cccccc;
+  border-top: 1px dashed #ccc;
   zoom: 1;
 }
 /* line 101, sass/mods/_club-list.scss */
@@ -1258,7 +1258,7 @@
   height: 100px;
   margin-right: 25px;
   text-align: center;
-  border: 1px solid lightgrey;
+  border: 1px solid #d3d3d3;
 }
 /* line 115, sass/mods/_club-list.scss */
 .bk-club-list .club-list .logo i {
@@ -1311,7 +1311,7 @@
 /* line 158, sass/mods/_club-list.scss */
 .bk-club-list .club-list .cnt .km-info {
   margin-bottom: 15px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   color: #333;
   font-weight: 700;
 }
@@ -1329,7 +1329,7 @@
 .bk-club-list .club-list .info {
   padding: 15px 0 0 15px;
   overflow: hidden;
-  border-left: 1px solid #dddddd;
+  border-left: 1px solid #ddd;
 }
 /* line 178, sass/mods/_club-list.scss */
 .bk-club-list .club-list .info p {
@@ -1444,36 +1444,40 @@
   background: #fff;
 }
 /* line 7, sass/mods/_club-home.scss */
+.bk-club-home a {
+  color: #999;
+}
+/* line 10, sass/mods/_club-home.scss */
 .bk-club-home .hd {
   position: relative;
   padding: 20px;
   background: #f8f8f8;
   zoom: 1;
 }
-/* line 12, sass/mods/_club-home.scss */
+/* line 15, sass/mods/_club-home.scss */
 .bk-club-home .hd:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 17, sass/mods/_club-home.scss */
+/* line 20, sass/mods/_club-home.scss */
 .bk-club-home .hd .l {
   float: left;
   display: inline;
   margin-right: 25px;
 }
-/* line 21, sass/mods/_club-home.scss */
+/* line 24, sass/mods/_club-home.scss */
 .bk-club-home .hd .l .add-btn {
   display: block;
   width: 199px;
   height: 48px;
   background: url(../images/sprites.png) 0 -190px no-repeat;
 }
-/* line 26, sass/mods/_club-home.scss */
+/* line 29, sass/mods/_club-home.scss */
 .bk-club-home .hd .l .add-btn strong {
   display: none;
 }
-/* line 31, sass/mods/_club-home.scss */
+/* line 34, sass/mods/_club-home.scss */
 .bk-club-home .hd .logo {
   width: 200px;
   height: 180px;
@@ -1481,10 +1485,10 @@
   margin-bottom: 15px;
   text-align: center;
   background: #fff;
-  border: 1px solid lightgrey;
+  border: 1px solid #d3d3d3;
   box-shadow: -5px 5px 9px rgba(0, 0, 0, 0.18);
 }
-/* line 40, sass/mods/_club-home.scss */
+/* line 43, sass/mods/_club-home.scss */
 .bk-club-home .hd .logo i {
   display: inline-block;
   width: 0px;
@@ -1492,12 +1496,12 @@
   vertical-align: middle;
   overflow: hidden;
 }
-/* line 47, sass/mods/_club-home.scss */
+/* line 50, sass/mods/_club-home.scss */
 .bk-club-home .hd .logo img {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 52, sass/mods/_club-home.scss */
+/* line 55, sass/mods/_club-home.scss */
 .bk-club-home .hd .member-login {
   position: absolute;
   right: 18px;
@@ -1507,86 +1511,91 @@
   line-height: 41px;
   text-indent: 45px;
   background: url(../images/sprites.png) 0 -140px no-repeat;
+  color: #999;
 }
-/* line 61, sass/mods/_club-home.scss */
+/* line 65, sass/mods/_club-home.scss */
 .bk-club-home .hd .member-login a {
   font-size: 14px;
   text-decoration: none;
   color: #999;
 }
-/* line 67, sass/mods/_club-home.scss */
+/* line 71, sass/mods/_club-home.scss */
 .bk-club-home .hd .cnt {
   overflow: hidden;
   zoom: 1;
 }
-/* line 73, sass/mods/_club-home.scss */
+/* line 77, sass/mods/_club-home.scss */
 .bk-club-home .hd .cnt:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 78, sass/mods/_club-home.scss */
+/* line 82, sass/mods/_club-home.scss */
 .bk-club-home .hd .cnt dl {
   float: left;
   display: inline;
   width: 520px;
   padding-right: 10px;
 }
-/* line 84, sass/mods/_club-home.scss */
+/* line 88, sass/mods/_club-home.scss */
 .bk-club-home .hd .cnt dt {
   margin-bottom: 10px;
 }
-/* line 87, sass/mods/_club-home.scss */
+/* line 91, sass/mods/_club-home.scss */
 .bk-club-home .hd .cnt .name {
   display: inline-block;
   vertical-align: middle;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   font-size: 24px;
   font-weight: 700;
   text-decoration: none;
   color: #666;
 }
-/* line 95, sass/mods/_club-home.scss */
+/* line 99, sass/mods/_club-home.scss */
 .bk-club-home .hd .cnt .name:hover {
   text-decoration: underline;
 }
-/* line 99, sass/mods/_club-home.scss */
+/* line 103, sass/mods/_club-home.scss */
 .bk-club-home .hd .cnt .richtext {
   font-size: 14px;
   line-height: 24px;
   color: #999;
 }
-/* line 106, sass/mods/_club-home.scss */
+/* line 110, sass/mods/_club-home.scss */
 .bk-club-home .hd .info {
   padding: 15px 0 0 15px;
   overflow: hidden;
-  border-left: 1px solid #dddddd;
+  border-left: 1px solid #ddd;
 }
-/* line 110, sass/mods/_club-home.scss */
+/* line 114, sass/mods/_club-home.scss */
+.bk-club-home .hd .info a * {
+  text-decoration: none;
+}
+/* line 117, sass/mods/_club-home.scss */
 .bk-club-home .hd .info p {
   margin-bottom: 15px;
 }
-/* line 113, sass/mods/_club-home.scss */
+/* line 120, sass/mods/_club-home.scss */
 .bk-club-home .hd .info i {
   margin-right: 20px;
 }
-/* line 116, sass/mods/_club-home.scss */
+/* line 123, sass/mods/_club-home.scss */
 .bk-club-home .hd .info span {
   display: inline-block;
   vertical-align: middle;
   color: #999;
 }
-/* line 126, sass/mods/_club-home.scss */
+/* line 133, sass/mods/_club-home.scss */
 .bk-club-home .km-info {
   position: relative;
   width: 960px;
   height: 206px;
   margin-bottom: 60px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   background: url(../images/c-km.png) 0 0 no-repeat;
   font-weight: 700;
 }
-/* line 134, sass/mods/_club-home.scss */
+/* line 141, sass/mods/_club-home.scss */
 .bk-club-home .km-info strong {
   position: absolute;
   left: 282px;
@@ -1596,43 +1605,43 @@
   font-family: arial;
   color: #162148;
 }
-/* line 145, sass/mods/_club-home.scss */
+/* line 152, sass/mods/_club-home.scss */
 .bk-club-home .member {
   padding-top: 20px;
 }
-/* line 149, sass/mods/_club-home.scss */
+/* line 156, sass/mods/_club-home.scss */
 .bk-club-home .title {
   position: relative;
   margin-bottom: 30px;
   border-bottom: 1px solid #b8b8b8;
 }
-/* line 153, sass/mods/_club-home.scss */
+/* line 160, sass/mods/_club-home.scss */
 .bk-club-home .title b {
   position: absolute;
   left: 28px;
   top: -13px;
   padding: 0 18px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   font-size: 24px;
   background: #fff;
   color: #333;
 }
-/* line 165, sass/mods/_club-home.scss */
+/* line 172, sass/mods/_club-home.scss */
 .bk-club-home .activity-list {
   padding: 0 15px 50px;
 }
-/* line 167, sass/mods/_club-home.scss */
+/* line 174, sass/mods/_club-home.scss */
 .bk-club-home .activity-list ul {
   margin-left: -76px;
   zoom: 1;
 }
-/* line 170, sass/mods/_club-home.scss */
+/* line 177, sass/mods/_club-home.scss */
 .bk-club-home .activity-list ul:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 176, sass/mods/_club-home.scss */
+/* line 183, sass/mods/_club-home.scss */
 .bk-club-home .activity-list li {
   display: inline;
   float: left;
@@ -1640,27 +1649,27 @@
   margin-left: 76px;
   padding: 35px 0 10px;
 }
-/* line 183, sass/mods/_club-home.scss */
+/* line 190, sass/mods/_club-home.scss */
 .bk-club-home .activity-list h3 {
   margin-bottom: 12px;
   font-size: 18px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   color: #333;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
-/* line 191, sass/mods/_club-home.scss */
+/* line 198, sass/mods/_club-home.scss */
 .bk-club-home .activity-list h3 a {
   text-decoration: none;
   color: #333;
 }
-/* line 196, sass/mods/_club-home.scss */
+/* line 203, sass/mods/_club-home.scss */
 .bk-club-home .activity-list .pic {
   height: 120px;
   margin-bottom: 12px;
 }
-/* line 200, sass/mods/_club-home.scss */
+/* line 207, sass/mods/_club-home.scss */
 .bk-club-home .activity-list p {
   height: 120px;
   line-height: 24px;
@@ -1668,7 +1677,7 @@
   color: #999;
   overflow: hidden;
 }
-/* line 209, sass/mods/_club-home.scss */
+/* line 216, sass/mods/_club-home.scss */
 .bk-club-home .icon-win {
   display: inline-block;
   width: 53px;
@@ -1681,7 +1690,7 @@
   background: url(../images/sprites.png) -90px -20px no-repeat;
   color: #fff;
 }
-/* line 221, sass/mods/_club-home.scss */
+/* line 228, sass/mods/_club-home.scss */
 .bk-club-home .icon-bike {
   display: inline-block;
   vertical-align: middle;
@@ -1689,7 +1698,7 @@
   height: 20px;
   background: url(../images/sprites.png) -90px -50px no-repeat;
 }
-/* line 228, sass/mods/_club-home.scss */
+/* line 235, sass/mods/_club-home.scss */
 .bk-club-home .icon-member {
   display: inline-block;
   vertical-align: middle;
@@ -1697,7 +1706,7 @@
   height: 20px;
   background: url(../images/sprites.png) -120px -50px no-repeat;
 }
-/* line 235, sass/mods/_club-home.scss */
+/* line 242, sass/mods/_club-home.scss */
 .bk-club-home .icon-activity {
   display: inline-block;
   vertical-align: middle;
@@ -1705,7 +1714,7 @@
   height: 20px;
   background: url(../images/sprites.png) -150px -50px no-repeat;
 }
-/* line 245, sass/mods/_club-home.scss */
+/* line 252, sass/mods/_club-home.scss */
 .bk-club-home .bk-switch {
   position: relative;
   width: 742px;
@@ -1714,34 +1723,34 @@
   background: #fff;
   border: 1px solid #d4d4d4;
   border-radius: 8px;
-  box-shadow: 0 0 3px #cccccc;
+  box-shadow: 0 0 3px #ccc;
 }
-/* line 255, sass/mods/_club-home.scss */
+/* line 262, sass/mods/_club-home.scss */
 .bk-club-home .bk-switch .switch-content {
   position: relative;
   width: 742px;
   height: 58px;
   overflow: hidden;
 }
-/* line 261, sass/mods/_club-home.scss */
+/* line 268, sass/mods/_club-home.scss */
 .bk-club-home .bk-switch ul {
   position: absolute;
   left: 0;
   top: 0;
   zoom: 1;
 }
-/* line 267, sass/mods/_club-home.scss */
+/* line 274, sass/mods/_club-home.scss */
 .bk-club-home .bk-switch ul:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 272, sass/mods/_club-home.scss */
+/* line 279, sass/mods/_club-home.scss */
 .bk-club-home .bk-switch li {
   display: inline;
   float: left;
 }
-/* line 276, sass/mods/_club-home.scss */
+/* line 283, sass/mods/_club-home.scss */
 .bk-club-home .bk-switch li img {
   width: 48px;
   height: 48px;
@@ -1750,9 +1759,9 @@
   background: #fff;
   vertical-align: top;
   border: 1px solid #d4d4d4;
-  box-shadow: 0 0 3px #cccccc;
+  box-shadow: 0 0 3px #ccc;
 }
-/* line 286, sass/mods/_club-home.scss */
+/* line 293, sass/mods/_club-home.scss */
 .bk-club-home .bk-switch .left {
   position: absolute;
   left: -15px;
@@ -1766,14 +1775,14 @@
   cursor: pointer;
   z-index: 5;
 }
-/* line 299, sass/mods/_club-home.scss */
+/* line 306, sass/mods/_club-home.scss */
 .bk-club-home .bk-switch .left i {
   display: inline-block;
   width: 10px;
   height: 13px;
   background: url(../images/sprites.png) -55px 0 no-repeat;
 }
-/* line 305, sass/mods/_club-home.scss */
+/* line 312, sass/mods/_club-home.scss */
 .bk-club-home .bk-switch .right {
   position: absolute;
   right: -15px;
@@ -1787,14 +1796,14 @@
   cursor: pointer;
   z-index: 5;
 }
-/* line 318, sass/mods/_club-home.scss */
+/* line 325, sass/mods/_club-home.scss */
 .bk-club-home .bk-switch .right i {
   display: inline-block;
   width: 10px;
   height: 13px;
   background: url(../images/sprites.png) -65px 0 no-repeat;
 }
-/* line 324, sass/mods/_club-home.scss */
+/* line 331, sass/mods/_club-home.scss */
 .bk-club-home .bk-switch .bk-switch-detail {
   position: absolute;
   left: 0;
@@ -1806,15 +1815,15 @@
   background: #fff;
   border: 1px solid #d4d4d4;
   border-radius: 8px;
-  box-shadow: 0 0 3px #cccccc;
+  box-shadow: 0 0 3px #ccc;
   color: #999;
 }
-/* line 338, sass/mods/_club-home.scss */
+/* line 345, sass/mods/_club-home.scss */
 .bk-club-home .bk-switch .bk-switch-detail label {
   font-weight: 700;
   color: #666;
 }
-/* line 342, sass/mods/_club-home.scss */
+/* line 349, sass/mods/_club-home.scss */
 .bk-club-home .bk-switch .bk-switch-detail .arrow {
   position: absolute;
   left: 30px;
@@ -1824,7 +1833,7 @@
   background: url(../images/sprites.png) -45px 0 no-repeat;
   overflow: hidden;
 }
-/* line 352, sass/mods/_club-home.scss */
+/* line 359, sass/mods/_club-home.scss */
 .bk-club-home .member-info {
   top: -420px;
   width: 260px;
@@ -1832,7 +1841,7 @@
   border-radius: 6px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
-/* line 359, sass/mods/_club-home.scss */
+/* line 366, sass/mods/_club-home.scss */
 .bk-club-home .member-info .mi-hd {
   position: relative;
   height: 160px;
@@ -1840,7 +1849,7 @@
   background-position: 0 0;
   background-repeat: no-repeat;
 }
-/* line 365, sass/mods/_club-home.scss */
+/* line 372, sass/mods/_club-home.scss */
 .bk-club-home .member-info .mi-hd .pic {
   position: absolute;
   width: 105px;
@@ -1851,36 +1860,36 @@
   border-radius: 52px;
   overflow: hidden;
 }
-/* line 378, sass/mods/_club-home.scss */
+/* line 385, sass/mods/_club-home.scss */
 .bk-club-home .member-info .name {
   text-align: center;
 }
-/* line 380, sass/mods/_club-home.scss */
+/* line 387, sass/mods/_club-home.scss */
 .bk-club-home .member-info .name b {
   margin-right: 5px;
   font-size: 24px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   color: #333;
 }
-/* line 386, sass/mods/_club-home.scss */
+/* line 393, sass/mods/_club-home.scss */
 .bk-club-home .member-info .name i {
   font-size: 14px;
   color: #999;
 }
-/* line 391, sass/mods/_club-home.scss */
+/* line 398, sass/mods/_club-home.scss */
 .bk-club-home .member-info dl {
   padding-top: 20px;
   text-align: center;
 }
-/* line 395, sass/mods/_club-home.scss */
+/* line 402, sass/mods/_club-home.scss */
 .bk-club-home .member-info dt {
   height: 0;
   margin: 0 10px 15px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   font-size: 18px;
-  border-bottom: 1px solid #aaaaaa;
+  border-bottom: 1px solid #aaa;
 }
-/* line 401, sass/mods/_club-home.scss */
+/* line 408, sass/mods/_club-home.scss */
 .bk-club-home .member-info dt b {
   position: relative;
   display: inline-block;
@@ -1889,30 +1898,30 @@
   background: #fff;
   color: #353535;
 }
-/* line 410, sass/mods/_club-home.scss */
+/* line 417, sass/mods/_club-home.scss */
 .bk-club-home .member-info .mi-km-info {
   margin-bottom: 15px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   color: #333;
   font-weight: 700;
 }
-/* line 415, sass/mods/_club-home.scss */
+/* line 422, sass/mods/_club-home.scss */
 .bk-club-home .member-info .mi-km-info b {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 421, sass/mods/_club-home.scss */
+/* line 428, sass/mods/_club-home.scss */
 .bk-club-home .ctrl {
   background: #efefef;
   zoom: 1;
 }
-/* line 424, sass/mods/_club-home.scss */
+/* line 431, sass/mods/_club-home.scss */
 .bk-club-home .ctrl:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 429, sass/mods/_club-home.scss */
+/* line 436, sass/mods/_club-home.scss */
 .bk-club-home .ctrl .s {
   display: inline;
   float: left;
@@ -1922,18 +1931,18 @@
   text-align: center;
   color: #666;
 }
-/* line 438, sass/mods/_club-home.scss */
+/* line 445, sass/mods/_club-home.scss */
 .bk-club-home .ctrl p {
   margin-bottom: 15px;
 }
-/* line 441, sass/mods/_club-home.scss */
+/* line 448, sass/mods/_club-home.scss */
 .bk-club-home .ctrl b {
   font-size: 18px;
   font-style: 700;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   color: #353535;
 }
-/* line 450, sass/mods/_club-home.scss */
+/* line 457, sass/mods/_club-home.scss */
 .bk-club-home .icon-km {
   position: relative;
   left: -10px;
@@ -1942,7 +1951,7 @@
   vertical-align: middle;
   overflow: hidden;
 }
-/* line 457, sass/mods/_club-home.scss */
+/* line 464, sass/mods/_club-home.scss */
 .bk-club-home .icon-km b {
   position: relative;
   left: 5px;
@@ -1958,32 +1967,32 @@
   color: #fff;
   background: url(../images/sprites.png) 0 -80px no-repeat;
 }
-/* line 473, sass/mods/_club-home.scss */
+/* line 480, sass/mods/_club-home.scss */
 .bk-club-home .bt {
   height: 40px;
   text-align: center;
   color: #999;
 }
-/* line 477, sass/mods/_club-home.scss */
+/* line 484, sass/mods/_club-home.scss */
 .bk-club-home .bt p {
   margin-bottom: 10px;
 }
-/* line 480, sass/mods/_club-home.scss */
+/* line 487, sass/mods/_club-home.scss */
 .bk-club-home .bt .close {
   display: none;
   color: #999;
 }
-/* line 483, sass/mods/_club-home.scss */
+/* line 490, sass/mods/_club-home.scss */
 .bk-club-home .bt .close i {
   margin-right: 5px;
 }
-/* line 486, sass/mods/_club-home.scss */
+/* line 493, sass/mods/_club-home.scss */
 .bk-club-home .bt .close span {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 494, sass/mods/_club-home.scss */
+/* line 501, sass/mods/_club-home.scss */
 .bk-club-home.w960 {
   width: 960px;
 }
@@ -2002,23 +2011,24 @@
   height: 172px;
   margin: -160px 0 0 20px;
   padding: 5px;
+  text-align: center;
   background-color: #fff;
   box-shadow: 0 0 9px rgba(0, 0, 0, 0.18);
 }
-/* line 16, sass/mods/_person-center.scss */
+/* line 17, sass/mods/_person-center.scss */
 .bk-person-center .nav {
   position: relative;
   margin: -114px 0 0 280px;
   zoom: 1;
   z-index: 10;
 }
-/* line 21, sass/mods/_person-center.scss */
+/* line 22, sass/mods/_person-center.scss */
 .bk-person-center .nav:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 26, sass/mods/_person-center.scss */
+/* line 27, sass/mods/_person-center.scss */
 .bk-person-center .nav li {
   float: left;
   display: inline;
@@ -2027,48 +2037,48 @@
   margin-right: 16px;
   padding: 10px 0 6px 4px;
   line-height: 1.5;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   text-align: center;
   text-decoration: none;
   background: url(../images/sprites.png) 0 -350px no-repeat;
 }
-/* line 38, sass/mods/_person-center.scss */
+/* line 39, sass/mods/_person-center.scss */
 .bk-person-center .nav li a {
   text-decoration: none;
   color: #000;
 }
-/* line 42, sass/mods/_person-center.scss */
+/* line 43, sass/mods/_person-center.scss */
 .bk-person-center .nav li b {
   display: inline;
   float: left;
   width: 100%;
   font-size: 24px;
 }
-/* line 48, sass/mods/_person-center.scss */
+/* line 49, sass/mods/_person-center.scss */
 .bk-person-center .nav li span {
   font-size: 14px;
 }
-/* line 52, sass/mods/_person-center.scss */
+/* line 53, sass/mods/_person-center.scss */
 .bk-person-center .nav .active {
   background-position: 0 -250px;
 }
-/* line 54, sass/mods/_person-center.scss */
+/* line 55, sass/mods/_person-center.scss */
 .bk-person-center .nav .active a {
   color: #fff;
 }
-/* line 59, sass/mods/_person-center.scss */
+/* line 60, sass/mods/_person-center.scss */
 .bk-person-center .inner {
   background-color: #f8f8f8;
   overflow: hidden;
   zoom: 1;
 }
-/* line 63, sass/mods/_person-center.scss */
+/* line 64, sass/mods/_person-center.scss */
 .bk-person-center .inner:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 68, sass/mods/_person-center.scss */
+/* line 69, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside {
   display: inline;
   float: left;
@@ -2081,27 +2091,27 @@
   width: 220px;
   background-color: #ededed;
 }
-/* line 79, sass/mods/_person-center.scss */
+/* line 80, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside .name {
   margin-bottom: 10px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   font-size: 24px;
   text-align: center;
   color: #033;
 }
-/* line 86, sass/mods/_person-center.scss */
+/* line 87, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside label {
   display: block;
   text-align: center;
   font-size: 14px;
   color: #999;
 }
-/* line 92, sass/mods/_person-center.scss */
+/* line 93, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside .ctrl {
   padding: 20px 0;
   text-align: center;
 }
-/* line 95, sass/mods/_person-center.scss */
+/* line 96, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside .ctrl .btn {
   display: inline-block;
   vertical-align: middle;
@@ -2111,77 +2121,77 @@
   border-radius: 2px;
   color: #666;
 }
-/* line 103, sass/mods/_person-center.scss */
+/* line 104, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside .ctrl .btn i, .bk-person-center .inner .aside .ctrl .btn span {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 107, sass/mods/_person-center.scss */
+/* line 108, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside .ctrl .btn i {
   margin-right: 5px;
 }
-/* line 112, sass/mods/_person-center.scss */
+/* line 113, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside .info {
   margin-bottom: 10px;
   line-height: 24px;
   color: #666;
 }
-/* line 117, sass/mods/_person-center.scss */
+/* line 118, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside .line {
   margin: 10px 0;
   border-bottom: 1px dotted #d0d0d0;
 }
-/* line 121, sass/mods/_person-center.scss */
+/* line 122, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside dl {
   line-height: 24px;
   color: #666;
 }
-/* line 126, sass/mods/_person-center.scss */
+/* line 127, sass/mods/_person-center.scss */
 .bk-person-center .inner .main {
   display: inline;
   float: left;
   margin-bottom: -9999em;
   padding-bottom: 9999em;
 }
-/* line 134, sass/mods/_person-center.scss */
+/* line 135, sass/mods/_person-center.scss */
 .bk-person-center .center-main {
   padding: 40px 0 0 40px;
 }
-/* line 136, sass/mods/_person-center.scss */
+/* line 137, sass/mods/_person-center.scss */
 .bk-person-center .center-main h3 {
   margin-bottom: 20px;
   font-size: 18px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
 }
-/* line 140, sass/mods/_person-center.scss */
+/* line 141, sass/mods/_person-center.scss */
 .bk-person-center .center-main h3 i {
   margin-right: 10px;
 }
-/* line 143, sass/mods/_person-center.scss */
+/* line 144, sass/mods/_person-center.scss */
 .bk-person-center .center-main h3 b {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 148, sass/mods/_person-center.scss */
+/* line 149, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course {
   position: relative;
 }
-/* line 150, sass/mods/_person-center.scss */
+/* line 151, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course h4 {
   position: relative;
 }
-/* line 152, sass/mods/_person-center.scss */
+/* line 153, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course h4 .all-km {
   margin-right: 10px;
 }
-/* line 155, sass/mods/_person-center.scss */
+/* line 156, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course h4 b {
   display: inline-block;
   vertical-align: bottom;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   font-size: 18px;
 }
-/* line 162, sass/mods/_person-center.scss */
+/* line 163, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .all-km {
   display: inline-block;
   vertical-align: middle;
@@ -2195,13 +2205,13 @@
   background: url(../images/p-km.png) 0 0 no-repeat;
   color: #fff;
 }
-/* line 175, sass/mods/_person-center.scss */
+/* line 176, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .list {
   position: relative;
   padding-left: 62px;
   padding-bottom: 40px;
 }
-/* line 180, sass/mods/_person-center.scss */
+/* line 181, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .line {
   position: absolute;
   left: 31px;
@@ -2210,7 +2220,7 @@
   height: 100%;
   background: #8baae3;
 }
-/* line 188, sass/mods/_person-center.scss */
+/* line 189, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .point {
   position: absolute;
   left: -38px;
@@ -2220,7 +2230,7 @@
   background: #8baae3;
   border-radius: 10px;
 }
-/* line 197, sass/mods/_person-center.scss */
+/* line 198, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .arrow {
   position: absolute;
   left: -12px;
@@ -2229,9 +2239,9 @@
   height: 0;
   border-width: 6px;
   border-style: dashed solid dashed dashed;
-  border-color: transparent #dddddd transparent transparent;
+  border-color: transparent #ddd transparent transparent;
 }
-/* line 206, sass/mods/_person-center.scss */
+/* line 207, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .arrow i {
   position: absolute;
   left: -5px;
@@ -2240,59 +2250,63 @@
   height: 0;
   border-width: 6px;
   border-style: dashed solid dashed dashed;
-  border-color: transparent white transparent transparent;
+  border-color: transparent #fff transparent transparent;
 }
-/* line 217, sass/mods/_person-center.scss */
+/* line 218, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item {
   position: relative;
   padding-top: 30px;
 }
-/* line 220, sass/mods/_person-center.scss */
+/* line 221, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item .cnt {
   padding: 20px;
   background: #fff;
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
   border-radius: 6px;
   zoom: 1;
 }
-/* line 226, sass/mods/_person-center.scss */
+/* line 227, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item .cnt:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 232, sass/mods/_person-center.scss */
+/* line 233, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item dl {
   display: inline;
   float: left;
   width: 280px;
 }
-/* line 236, sass/mods/_person-center.scss */
+/* line 237, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item dl dt {
   margin-bottom: 12px;
   font-size: 14px;
   font-weight: 700;
 }
 /* line 241, sass/mods/_person-center.scss */
+.bk-person-center .center-main .course .item dl dt a {
+  color: #06d;
+}
+/* line 245, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item dl a {
   text-decoration: none;
 }
-/* line 244, sass/mods/_person-center.scss */
+/* line 248, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item dl .km-info {
   margin-bottom: 10px;
-  font-family: "Microsoft Yahei", arial;
+  font-family: 'Microsoft Yahei', arial;
   font-weight: 700;
 }
-/* line 249, sass/mods/_person-center.scss */
+/* line 253, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item dl dd {
   color: #666;
 }
-/* line 253, sass/mods/_person-center.scss */
+/* line 257, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item ul {
   display: inline;
   float: left;
 }
-/* line 256, sass/mods/_person-center.scss */
+/* line 260, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item ul li {
   display: inline;
   float: left;
@@ -2300,29 +2314,29 @@
   width: 74px;
   height: 74px;
 }
-/* line 268, sass/mods/_person-center.scss */
+/* line 272, sass/mods/_person-center.scss */
 .bk-person-center .club-list {
   width: 640px;
   padding: 20px 0 0 15px;
 }
-/* line 271, sass/mods/_person-center.scss */
+/* line 275, sass/mods/_person-center.scss */
 .bk-person-center .club-list h3 {
   margin-bottom: 22px;
   padding-bottom: 12px;
   border-bottom: 1px solid #dfdfdf;
   color: #333;
 }
-/* line 277, sass/mods/_person-center.scss */
+/* line 281, sass/mods/_person-center.scss */
 .bk-person-center .club-list ul {
   zoom: 1;
 }
-/* line 279, sass/mods/_person-center.scss */
+/* line 283, sass/mods/_person-center.scss */
 .bk-person-center .club-list ul:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 285, sass/mods/_person-center.scss */
+/* line 289, sass/mods/_person-center.scss */
 .bk-person-center .club-list li {
   display: inline;
   float: left;
@@ -2330,7 +2344,7 @@
   margin-right: 2%;
   margin-bottom: 30px;
 }
-/* line 292, sass/mods/_person-center.scss */
+/* line 296, sass/mods/_person-center.scss */
 .bk-person-center .club-list .pic {
   display: inline;
   float: left;
@@ -2340,44 +2354,44 @@
   text-align: center;
   white-space: nowrap;
   background: #fff;
-  border: 1px solid lightgrey;
+  border: 1px solid #d3d3d3;
   overflow: hidden;
 }
-/* line 303, sass/mods/_person-center.scss */
+/* line 307, sass/mods/_person-center.scss */
 .bk-person-center .club-list .pic img {
   max-width: 100%;
   max-height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 309, sass/mods/_person-center.scss */
+/* line 313, sass/mods/_person-center.scss */
 .bk-person-center .club-list .pic i {
   display: inline-block;
   vertical-align: middle;
   width: 0;
   height: 100px;
 }
-/* line 316, sass/mods/_person-center.scss */
+/* line 320, sass/mods/_person-center.scss */
 .bk-person-center .club-list dl {
   overflow: hidden;
 }
-/* line 318, sass/mods/_person-center.scss */
+/* line 322, sass/mods/_person-center.scss */
 .bk-person-center .club-list dl dt {
   margin-bottom: 16px;
   font-size: 14px;
   font-weight: 700;
   color: #666;
 }
-/* line 323, sass/mods/_person-center.scss */
+/* line 327, sass/mods/_person-center.scss */
 .bk-person-center .club-list dl dt a {
   color: #666;
 }
-/* line 327, sass/mods/_person-center.scss */
+/* line 331, sass/mods/_person-center.scss */
 .bk-person-center .club-list dl dd {
   margin-bottom: 12px;
   color: #999;
 }
-/* line 334, sass/mods/_person-center.scss */
+/* line 338, sass/mods/_person-center.scss */
 .bk-person-center .icon-bike {
   display: inline-block;
   vertical-align: middle;
@@ -2385,7 +2399,7 @@
   height: 20px;
   background: url(../images/sprites.png) -120px -300px no-repeat;
 }
-/* line 342, sass/mods/_person-center.scss */
+/* line 346, sass/mods/_person-center.scss */
 .bk-person-center .icon-hand {
   display: inline-block;
   vertical-align: middle;
@@ -2393,7 +2407,7 @@
   height: 12px;
   background: url(../images/sprites.png) -120px -250px no-repeat;
 }
-/* line 349, sass/mods/_person-center.scss */
+/* line 353, sass/mods/_person-center.scss */
 .bk-person-center .icon-letter {
   display: inline-block;
   vertical-align: middle;
@@ -2401,7 +2415,7 @@
   height: 11px;
   background: url(../images/sprites.png) -140px -250px no-repeat;
 }
-/* line 356, sass/mods/_person-center.scss */
+/* line 360, sass/mods/_person-center.scss */
 .bk-person-center .icon-qq {
   display: inline-block;
   vertical-align: middle;
@@ -2409,11 +2423,11 @@
   height: 20px;
   background: url(../images/sprites.png) -120px -270px no-repeat;
 }
-/* line 362, sass/mods/_person-center.scss */
+/* line 366, sass/mods/_person-center.scss */
 .bk-person-center .icon-qq strong {
   display: none;
 }
-/* line 366, sass/mods/_person-center.scss */
+/* line 370, sass/mods/_person-center.scss */
 .bk-person-center .icon-sina {
   display: inline-block;
   vertical-align: middle;
@@ -2421,11 +2435,11 @@
   height: 20px;
   background: url(../images/sprites.png) -150px -270px no-repeat;
 }
-/* line 372, sass/mods/_person-center.scss */
+/* line 376, sass/mods/_person-center.scss */
 .bk-person-center .icon-sina strong {
   display: none;
 }
-/* line 377, sass/mods/_person-center.scss */
+/* line 381, sass/mods/_person-center.scss */
 .bk-person-center .icon-km {
   position: relative;
   left: -10px;
@@ -2434,7 +2448,7 @@
   vertical-align: middle;
   overflow: hidden;
 }
-/* line 384, sass/mods/_person-center.scss */
+/* line 388, sass/mods/_person-center.scss */
 .bk-person-center .icon-km b {
   position: relative;
   left: 5px;
@@ -2451,7 +2465,7 @@
   background: url(../images/sprites.png) 0 -80px no-repeat;
 }
 
-/* line 402, sass/mods/_person-center.scss */
+/* line 406, sass/mods/_person-center.scss */
 .bk-person-center.w960 {
   width: 960px;
 }
