@@ -92,11 +92,13 @@
 }
 /* line 52, sass/mods/_head.scss */
 .bk-head .search {
+  display: inline-block;
+  vertical-align: middle;
   padding: 0 5px 2px;
   background: #FFF;
   border: 1px solid #ddd;
 }
-/* line 56, sass/mods/_head.scss */
+/* line 58, sass/mods/_head.scss */
 .bk-head .search .txt {
   display: inline-block;
   margin: 0;
@@ -105,7 +107,7 @@
   border: 0;
   outline: none;
 }
-/* line 64, sass/mods/_head.scss */
+/* line 66, sass/mods/_head.scss */
 .bk-head .search .btn {
   display: inline-block;
   width: 16px;
@@ -116,8 +118,60 @@
   border: 0;
   cursor: pointer;
 }
+/* line 78, sass/mods/_head.scss */
+.bk-head .a-km, .bk-head .a-weibo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+/* line 84, sass/mods/_head.scss */
+.bk-head .icon-a-km {
+  display: inline-block;
+  vertical-align: middle;
+  width: 116px;
+  height: 22px;
+  background: url(../images/sprites.png) 0 -440px no-repeat;
+}
+/* line 92, sass/mods/_head.scss */
+.bk-head .icon-weibo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 62px;
+  height: 22px;
+  background: url(../images/sprites.png) 0 -470px no-repeat;
+}
+/* line 100, sass/mods/_head.scss */
+.bk-head .num {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 3px 5px;
+  background: #fcf8ea;
+  border: 1px solid #ecd181;
+  border-radius: 2px;
+  color: #333;
+}
+/* line 109, sass/mods/_head.scss */
+.bk-head .num .arrow, .bk-head .num .arrow-i {
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  width: 0;
+  height: 0;
+  margin-top: -5px;
+  border-style: dashed solid dashed dashed;
+  border-width: 5px;
+  border-color: transparent #ecd181 transparent transparent;
+}
+/* line 120, sass/mods/_head.scss */
+.bk-head .num .arrow-i {
+  left: -8px;
+  margin-top: -4px;
+  border-width: 4px;
+  border-color: transparent #fcf8ea transparent transparent;
+}
 
-/* line 76, sass/mods/_head.scss */
+/* line 129, sass/mods/_head.scss */
 .bk-head.w960 {
   width: 960px;
 }
