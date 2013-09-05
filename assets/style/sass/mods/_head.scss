@@ -50,6 +50,8 @@
   }
 
   .search {
+    display: inline-block;
+    vertical-align: middle;
     padding: 0 5px 2px;
     background: #FFF;
     border: 1px solid #ddd;
@@ -72,6 +74,57 @@
       cursor: pointer;
     }
   }
+
+  .a-km, .a-weibo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+  }
+
+  .icon-a-km {
+    display: inline-block;
+    vertical-align: middle;
+    width: 116px;
+    height: 22px;
+    background: url(../images/sprites.png) 0 -440px no-repeat;
+  }
+
+  .icon-weibo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 62px;
+    height: 22px;
+    background: url(../images/sprites.png) 0 -470px no-repeat;
+  }
+
+  .num {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 3px 5px;
+    background: #fcf8ea;
+    border: 1px solid #ecd181;
+    border-radius: 2px;
+    color: #333;
+    .arrow, .arrow-i {
+      position: absolute;
+      left: -10px;
+      top: 50%;
+      width: 0;
+      height: 0;
+      margin-top: -5px;
+      border-style: dashed solid dashed dashed;
+      border-width: 5px;
+      border-color: transparent #ecd181 transparent transparent;
+    }
+    .arrow-i {
+      left: -8px;
+      margin-top: -4px;
+      border-width: 4px;
+      border-color: transparent #fcf8ea transparent transparent;
+    }
+  }
+
 }
 .bk-head.w960 {
   width: 960px;

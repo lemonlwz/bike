@@ -4,6 +4,9 @@
   //padding: 30px;
   font-size: 12px;
   background: #fff;
+  a {
+    color: #999;
+  }
   .hd {
     position: relative;
     padding: 20px;
@@ -58,6 +61,7 @@
       line-height: 41px;
       text-indent: 45px;
       background: url(../images/sprites.png) 0 -140px no-repeat;
+      color: #999;
       a {
         font-size: 14px;
         text-decoration: none;
@@ -107,6 +111,9 @@
       padding: 15px 0 0 15px;
       overflow: hidden;
       border-left: 1px solid #ddd;
+      a * {
+        text-decoration: none;
+      }
       p {
         margin-bottom: 15px;
       }

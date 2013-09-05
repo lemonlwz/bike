@@ -10,6 +10,7 @@
     height: 172px;
     margin: -160px 0 0 20px;
     padding: 5px;
+    text-align: center;
     background-color: #fff;
     box-shadow: 0 0 9px rgba(0,0,0,.18);
   }
@@ -237,6 +238,9 @@
             margin-bottom: 12px;
             font-size: 14px;
             font-weight: 700;
+            a {
+              color: #06d;
+            }
           }
           a {
             text-decoration: none;
