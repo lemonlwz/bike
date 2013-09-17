@@ -19,6 +19,9 @@
       this.width = elem.width();
       this.height = elem.height();
 
+      this.items.css({'z-index': 1});
+      $(this.items[0]).css({'z-index': 5});
+
       switch(this.anim){
         case 'slideup':
           this.initSlideUpItems();
@@ -82,6 +85,10 @@
         _this.setActive(index);
         _this.setAuto();
         return false;
+      });
+
+      _this.items.on('click', function(evt){
+        window.location.href = $(evt.currentTarget).attr('href');
       });
     },
     slideStop: function(){
@@ -147,14 +154,16 @@
     },
     fadeAnim: function(items, index){
       if(method._hadTransition){
-        $(items[this.index]).css({'opacity': 0});
-        $(items[index]).css({'opacity': 1});
+        $(items[this.index]).css({'opacity': 0, 'z-index': 1});
+        $(items[index]).css({'opacity': 1, 'z-index': 5});
       } else {
         $(items[this.index]).animate({
-          'opacity': 0
+          'opacity': 0,
+          'z-index': 1
         }, 800);
         $(items[index]).animate({
-          'opacity': 1
+          'opacity': 1,
+          'z-index': 5
         }, 800);
       }
     },

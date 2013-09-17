@@ -6,8 +6,8 @@
 /* line 5, sass/bike.scss */
 .bk-wrap hr {
   margin: 0 auto;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid white;
 }
 
 /* line 1, sass/mods/_icons.scss */
@@ -76,13 +76,13 @@
   padding: 15px;
   font-size: 16px;
   font-weight: 700;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   color: #333;
   text-decoration: none;
 }
 /* line 41, sass/mods/_head.scss */
 .bk-head .nav .active a {
-  border-bottom: 5px solid #f33;
+  border-bottom: 5px solid #ff3333;
 }
 /* line 46, sass/mods/_head.scss */
 .bk-head .r-t {
@@ -96,7 +96,7 @@
   vertical-align: middle;
   padding: 0 5px 2px;
   background: #FFF;
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
 }
 /* line 58, sass/mods/_head.scss */
 .bk-head .search .txt {
@@ -295,7 +295,7 @@
   margin: 10px 0;
   text-align: center;
   font-size: 24px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   color: #110f0f;
 }
 /* line 103, sass/mods/_foot.scss */
@@ -366,12 +366,13 @@
   position: absolute;
   left: 50%;
   bottom: .8em;
+  z-index: 10;
 }
-/* line 26, sass/mods/_banner.scss */
+/* line 27, sass/mods/_banner.scss */
 .bk-banner .slider-number .bd {
   margin-left: -50%;
 }
-/* line 29, sass/mods/_banner.scss */
+/* line 30, sass/mods/_banner.scss */
 .bk-banner .slider-number a {
   float: left;
   width: 14px;
@@ -382,15 +383,15 @@
   outline: 0;
   background: url("../images/sprites.png") -31px 0px no-repeat;
 }
-/* line 39, sass/mods/_banner.scss */
+/* line 40, sass/mods/_banner.scss */
 .bk-banner .slider-number .active {
   background-position: -16px 0;
 }
-/* line 43, sass/mods/_banner.scss */
+/* line 44, sass/mods/_banner.scss */
 .bk-banner .less-count {
   display: none;
 }
-/* line 46, sass/mods/_banner.scss */
+/* line 47, sass/mods/_banner.scss */
 .bk-banner .prev {
   position: absolute;
   left: -7px;
@@ -402,7 +403,7 @@
   z-index: 5;
   cursor: pointer;
 }
-/* line 57, sass/mods/_banner.scss */
+/* line 58, sass/mods/_banner.scss */
 .bk-banner .next {
   position: absolute;
   right: -7px;
@@ -414,7 +415,7 @@
   z-index: 5;
   cursor: pointer;
 }
-/* line 68, sass/mods/_banner.scss */
+/* line 69, sass/mods/_banner.scss */
 .bk-banner .info {
   position: absolute;
   right: 50px;
@@ -427,7 +428,7 @@
   color: #FFF;
   z-index: 5;
 }
-/* line 79, sass/mods/_banner.scss */
+/* line 80, sass/mods/_banner.scss */
 .bk-banner .info .bg {
   position: absolute;
   left: 0;
@@ -438,20 +439,20 @@
   background: rgba(0, 0, 0, 0.8);
   filter: alpha(opacity=80);
 }
-/* line 89, sass/mods/_banner.scss */
+/* line 90, sass/mods/_banner.scss */
 .bk-banner .info h3 {
   position: relative;
   margin-bottom: 20px;
   font-size: 24px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
 }
-/* line 95, sass/mods/_banner.scss */
+/* line 96, sass/mods/_banner.scss */
 .bk-banner .info .richtext {
   position: relative;
   line-height: 30px;
   font-size: 14px;
 }
-/* line 100, sass/mods/_banner.scss */
+/* line 101, sass/mods/_banner.scss */
 .bk-banner .info .more {
   position: relative;
   float: right;
@@ -459,12 +460,12 @@
   color: #666;
 }
 
-/* line 109, sass/mods/_banner.scss */
+/* line 110, sass/mods/_banner.scss */
 .bk-banner.w960 {
   width: 960px;
 }
 
-/* line 113, sass/mods/_banner.scss */
+/* line 114, sass/mods/_banner.scss */
 :root .bk-banner .info .bg {
   filter: none;
 }
@@ -480,7 +481,7 @@
 .bk-intro .new {
   padding: 30px 0;
   text-align: center;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   border-bottom: 1px solid #eaeaea;
 }
 /* line 11, sass/mods/_intro.scss */
@@ -526,7 +527,7 @@
 .bk-intro .activity-list h3 {
   margin-bottom: 12px;
   font-size: 18px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   color: #333;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -569,7 +570,7 @@
 /* line 79, sass/mods/_intro.scss */
 .bk-intro .bk-active .list h3 {
   margin-bottom: 10px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   font-size: 18px;
   color: #333;
 }
@@ -612,7 +613,7 @@
 /* line 116, sass/mods/_intro.scss */
 .bk-intro .bk-switch-wp h3 {
   margin-bottom: 18px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   font-size: 18px;
   color: #333;
 }
@@ -624,7 +625,7 @@
   background: #fff;
   border: 1px solid #d4d4d4;
   border-radius: 8px;
-  box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 3px #cccccc;
 }
 /* line 132, sass/mods/_intro.scss */
 .bk-intro .bk-switch .switch-content {
@@ -660,7 +661,7 @@
   background: #fff;
   vertical-align: top;
   border: 1px solid #d4d4d4;
-  box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 3px #cccccc;
 }
 /* line 163, sass/mods/_intro.scss */
 .bk-intro .bk-switch .left {
@@ -716,7 +717,7 @@
   background: #fff;
   border: 1px solid #d4d4d4;
   border-radius: 8px;
-  box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 3px #cccccc;
   color: #999;
 }
 /* line 215, sass/mods/_intro.scss */
@@ -804,7 +805,7 @@
   margin-bottom: 10px;
   line-height: 34px;
   font-size: 24px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   color: #011302;
 }
 /* line 64, sass/mods/_about.scss */
@@ -841,9 +842,9 @@
   margin: 0 10px;
   padding: 10px 26px;
   font-size: 14px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   background: #f4f4f4;
-  border-bottom: 1px dotted #ddd;
+  border-bottom: 1px dotted #dddddd;
   color: #333;
 }
 /* line 15, sass/mods/_activity-list.scss */
@@ -858,7 +859,7 @@
 .bk-activity-list .list li {
   zoom: 1;
   padding: 25px 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eeeeee;
 }
 /* line 25, sass/mods/_activity-list.scss */
 .bk-activity-list .list li:after {
@@ -885,7 +886,7 @@
   display: block;
   margin-bottom: 10px;
   font-size: 14px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
 }
 /* line 52, sass/mods/_activity-list.scss */
 .bk-activity-list .hot {
@@ -900,7 +901,7 @@
   margin-bottom: 5px;
   line-height: 24px;
   font-size: 18px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
 }
 /* line 63, sass/mods/_activity-list.scss */
 .bk-activity-list h4 a {
@@ -911,7 +912,7 @@
 .bk-activity-list .time {
   margin-bottom: 10px;
   font-size: 14px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   color: #999;
 }
 /* line 74, sass/mods/_activity-list.scss */
@@ -933,7 +934,7 @@
   display: inline-block;
   padding: 15px 45px;
   font-size: 18px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   text-decoration: none;
   background: #83ad02;
   color: #FFF;
@@ -1146,7 +1147,7 @@
   display: inline-block;
   padding: 5px 14px;
   background-color: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
@@ -1199,7 +1200,7 @@
 .bk-club-list h2 {
   margin-bottom: 20px;
   font-size: 24px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   color: #131313;
 }
 /* line 18, sass/mods/_club-list.scss */
@@ -1224,7 +1225,7 @@
   line-height: 0;
   border-style: solid dashed dashed dashed;
   border-width: 5px;
-  border-color: #666 transparent transparent transparent;
+  border-color: #666666 transparent transparent transparent;
 }
 /* line 40, sass/mods/_club-list.scss */
 .bk-club-list .search {
@@ -1295,7 +1296,7 @@
 /* line 97, sass/mods/_club-list.scss */
 .bk-club-list .club-list li {
   padding: 20px;
-  border-top: 1px dashed #ccc;
+  border-top: 1px dashed #cccccc;
   zoom: 1;
 }
 /* line 101, sass/mods/_club-list.scss */
@@ -1312,7 +1313,7 @@
   height: 100px;
   margin-right: 25px;
   text-align: center;
-  border: 1px solid #d3d3d3;
+  border: 1px solid lightgrey;
 }
 /* line 115, sass/mods/_club-list.scss */
 .bk-club-list .club-list .logo i {
@@ -1365,7 +1366,7 @@
 /* line 158, sass/mods/_club-list.scss */
 .bk-club-list .club-list .cnt .km-info {
   margin-bottom: 15px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   color: #333;
   font-weight: 700;
 }
@@ -1383,7 +1384,7 @@
 .bk-club-list .club-list .info {
   padding: 15px 0 0 15px;
   overflow: hidden;
-  border-left: 1px solid #ddd;
+  border-left: 1px solid #dddddd;
 }
 /* line 178, sass/mods/_club-list.scss */
 .bk-club-list .club-list .info p {
@@ -1539,7 +1540,7 @@
   margin-bottom: 15px;
   text-align: center;
   background: #fff;
-  border: 1px solid #d3d3d3;
+  border: 1px solid lightgrey;
   box-shadow: -5px 5px 9px rgba(0, 0, 0, 0.18);
 }
 /* line 43, sass/mods/_club-home.scss */
@@ -1599,7 +1600,7 @@
 .bk-club-home .hd .cnt .name {
   display: inline-block;
   vertical-align: middle;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   font-size: 24px;
   font-weight: 700;
   text-decoration: none;
@@ -1619,7 +1620,7 @@
 .bk-club-home .hd .info {
   padding: 15px 0 0 15px;
   overflow: hidden;
-  border-left: 1px solid #ddd;
+  border-left: 1px solid #dddddd;
 }
 /* line 114, sass/mods/_club-home.scss */
 .bk-club-home .hd .info a * {
@@ -1645,7 +1646,7 @@
   width: 960px;
   height: 206px;
   margin-bottom: 60px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   background: url(../images/c-km.png) 0 0 no-repeat;
   font-weight: 700;
 }
@@ -1675,7 +1676,7 @@
   left: 28px;
   top: -13px;
   padding: 0 18px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   font-size: 24px;
   background: #fff;
   color: #333;
@@ -1707,7 +1708,7 @@
 .bk-club-home .activity-list h3 {
   margin-bottom: 12px;
   font-size: 18px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   color: #333;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -1777,7 +1778,7 @@
   background: #fff;
   border: 1px solid #d4d4d4;
   border-radius: 8px;
-  box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 3px #cccccc;
 }
 /* line 262, sass/mods/_club-home.scss */
 .bk-club-home .bk-switch .switch-content {
@@ -1813,7 +1814,7 @@
   background: #fff;
   vertical-align: top;
   border: 1px solid #d4d4d4;
-  box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 3px #cccccc;
 }
 /* line 293, sass/mods/_club-home.scss */
 .bk-club-home .bk-switch .left {
@@ -1869,7 +1870,7 @@
   background: #fff;
   border: 1px solid #d4d4d4;
   border-radius: 8px;
-  box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 3px #cccccc;
   color: #999;
 }
 /* line 345, sass/mods/_club-home.scss */
@@ -1922,7 +1923,7 @@
 .bk-club-home .member-info .name b {
   margin-right: 5px;
   font-size: 24px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   color: #333;
 }
 /* line 393, sass/mods/_club-home.scss */
@@ -1939,9 +1940,9 @@
 .bk-club-home .member-info dt {
   height: 0;
   margin: 0 10px 15px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   font-size: 18px;
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid #aaaaaa;
 }
 /* line 408, sass/mods/_club-home.scss */
 .bk-club-home .member-info dt b {
@@ -1955,7 +1956,7 @@
 /* line 417, sass/mods/_club-home.scss */
 .bk-club-home .member-info .mi-km-info {
   margin-bottom: 15px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   color: #333;
   font-weight: 700;
 }
@@ -1993,7 +1994,7 @@
 .bk-club-home .ctrl b {
   font-size: 18px;
   font-style: 700;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   color: #353535;
 }
 /* line 457, sass/mods/_club-home.scss */
@@ -2091,7 +2092,7 @@
   margin-right: 16px;
   padding: 10px 0 6px 4px;
   line-height: 1.5;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   text-align: center;
   text-decoration: none;
   background: url(../images/sprites.png) 0 -350px no-repeat;
@@ -2148,7 +2149,7 @@
 /* line 80, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside .name {
   margin-bottom: 10px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   font-size: 24px;
   text-align: center;
   color: #033;
@@ -2215,7 +2216,7 @@
 .bk-person-center .center-main h3 {
   margin-bottom: 20px;
   font-size: 18px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
 }
 /* line 141, sass/mods/_person-center.scss */
 .bk-person-center .center-main h3 i {
@@ -2242,7 +2243,7 @@
 .bk-person-center .center-main .course h4 b {
   display: inline-block;
   vertical-align: bottom;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   font-size: 18px;
 }
 /* line 163, sass/mods/_person-center.scss */
@@ -2293,7 +2294,7 @@
   height: 0;
   border-width: 6px;
   border-style: dashed solid dashed dashed;
-  border-color: transparent #ddd transparent transparent;
+  border-color: transparent #dddddd transparent transparent;
 }
 /* line 207, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .arrow i {
@@ -2304,7 +2305,7 @@
   height: 0;
   border-width: 6px;
   border-style: dashed solid dashed dashed;
-  border-color: transparent #fff transparent transparent;
+  border-color: transparent white transparent transparent;
 }
 /* line 218, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item {
@@ -2315,7 +2316,7 @@
 .bk-person-center .center-main .course .item .cnt {
   padding: 20px;
   background: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   border-radius: 6px;
   zoom: 1;
 }
@@ -2348,7 +2349,7 @@
 /* line 248, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item dl .km-info {
   margin-bottom: 10px;
-  font-family: 'Microsoft Yahei', arial;
+  font-family: "Microsoft Yahei", arial;
   font-weight: 700;
 }
 /* line 253, sass/mods/_person-center.scss */
@@ -2408,7 +2409,7 @@
   text-align: center;
   white-space: nowrap;
   background: #fff;
-  border: 1px solid #d3d3d3;
+  border: 1px solid lightgrey;
   overflow: hidden;
 }
 /* line 307, sass/mods/_person-center.scss */
