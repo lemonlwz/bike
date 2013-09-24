@@ -20,7 +20,7 @@
       this.height = elem.height();
 
       this.items.css({'z-index': 1});
-      $(this.items[0]).css({'z-index': 5});
+      $(this.items[0]).css({'z-index': 2});
 
       switch(this.anim){
         case 'slideup':
@@ -88,7 +88,8 @@
       });
 
       _this.items.on('click', function(evt){
-        window.location.href = $(evt.currentTarget).attr('href');
+        //window.location.href = $(evt.currentTarget).attr('href');
+        window.open($(evt.currentTarget).attr('href'), '_blank');
       });
     },
     slideStop: function(){
@@ -155,7 +156,7 @@
     fadeAnim: function(items, index){
       if(method._hadTransition){
         $(items[this.index]).css({'opacity': 0, 'z-index': 1});
-        $(items[index]).css({'opacity': 1, 'z-index': 5});
+        $(items[index]).css({'opacity': 1, 'z-index': 2});
       } else {
         $(items[this.index]).animate({
           'opacity': 0,
@@ -163,7 +164,7 @@
         }, 800);
         $(items[index]).animate({
           'opacity': 1,
-          'z-index': 5
+          'z-index': 2
         }, 800);
       }
     },
