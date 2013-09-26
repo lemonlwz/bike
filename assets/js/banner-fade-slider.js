@@ -12,6 +12,7 @@
     init: function(elem, options){
       this.elem = elem;
       this.options = options;
+      this.anim = options.anim;
       this.wrap = this.elem.find(options.containerCls);
       this.items = this.wrap.find(options.itemCls);
       this.initBg(this.items);
@@ -240,7 +241,7 @@
       if(length<=1){
         numberWrap.addClass('less-count');
       }
-      var bd = $('<div class="bd"><div>');
+      var bd = $('<div class="bd"></div>');
       for(i=0; i<length; i++){
         activeStr = i===0 ? 'active' : '';
         bd.append('<a href="#" class="' + activeStr + '">' + i + '</a>');

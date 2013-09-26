@@ -114,3 +114,88 @@
 :root .bk-banner .info .bg {
   filter: none;
 }
+
+.bk-banner2 {
+  position: relative;
+  width: 620px;
+  height: 333px;
+  margin: 0 auto;
+  ul {
+    position: relative;
+    height: 333px;
+    transition: left 800ms ease-in-out;
+  }
+  li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 333px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: opacity 800ms ease-in-out;
+  }
+  .bg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    background: #000;
+    @include opacity(0.8);
+  }
+  .name {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-left: 35px;
+    line-height: 55px;
+    font-family: 'Microsoft Yahei', arial;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .slider-number {
+    position: absolute;
+    right: 30px;
+    bottom: 22px;
+    z-index: 10;
+    .bd {
+    }
+    a {
+      float: left;
+      width: 11px;
+      height: 11px;
+      margin-right: 10px;
+      text-indent: -9999em;
+      overflow: hidden;
+      outline: 0;
+      background: url('../images/sprites.png') -170px -300px no-repeat;
+    }
+    .active {
+      background-position: -150px -300px;
+    }
+  }
+}
+
+.bk-banner-wrap {
+  width: 980px;
+  margin: 0 auto;
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .bk-banner2 {
+    display: inline;
+    float: left;
+  }
+  .detail {
+    display: inline;
+    float: left;
+    width: 360px;
+    height: 333px;
+    background: #f33 url(../images/banner-d-t-b.png) 0 0 no-repeat;
+  }
+}

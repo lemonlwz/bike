@@ -470,6 +470,102 @@
   filter: none;
 }
 
+/* line 118, sass/mods/_banner.scss */
+.bk-banner2 {
+  position: relative;
+  width: 620px;
+  height: 333px;
+  margin: 0 auto;
+}
+/* line 123, sass/mods/_banner.scss */
+.bk-banner2 ul {
+  position: relative;
+  height: 333px;
+  transition: left 800ms ease-in-out;
+}
+/* line 128, sass/mods/_banner.scss */
+.bk-banner2 li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  width: 100%;
+  height: 333px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: opacity 800ms ease-in-out;
+}
+/* line 139, sass/mods/_banner.scss */
+.bk-banner2 .bg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 55px;
+  background: #000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+/* line 148, sass/mods/_banner.scss */
+.bk-banner2 .name {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-left: 35px;
+  line-height: 55px;
+  font-family: "Microsoft Yahei", arial;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+/* line 159, sass/mods/_banner.scss */
+.bk-banner2 .slider-number {
+  position: absolute;
+  right: 30px;
+  bottom: 22px;
+  z-index: 10;
+}
+/* line 166, sass/mods/_banner.scss */
+.bk-banner2 .slider-number a {
+  float: left;
+  width: 11px;
+  height: 11px;
+  margin-right: 10px;
+  text-indent: -9999em;
+  overflow: hidden;
+  outline: 0;
+  background: url("../images/sprites.png") -170px -300px no-repeat;
+}
+/* line 176, sass/mods/_banner.scss */
+.bk-banner2 .slider-number .active {
+  background-position: -150px -300px;
+}
+
+/* line 182, sass/mods/_banner.scss */
+.bk-banner-wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+/* line 185, sass/mods/_banner.scss */
+.bk-banner-wrap:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 190, sass/mods/_banner.scss */
+.bk-banner-wrap .bk-banner2 {
+  display: inline;
+  float: left;
+}
+/* line 194, sass/mods/_banner.scss */
+.bk-banner-wrap .detail {
+  display: inline;
+  float: left;
+  width: 360px;
+  height: 333px;
+  background: #ff3333 url(../images/banner-d-t-b.png) 0 0 no-repeat;
+}
+
 /* line 1, sass/mods/_intro.scss */
 .bk-intro {
   width: 900px;
