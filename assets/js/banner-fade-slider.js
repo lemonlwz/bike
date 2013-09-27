@@ -10,129 +10,129 @@
 
   var method = {
     init: function(elem, options){
-      this.elem = elem;
-      this.options = options;
-      this.anim = options.anim;
-      this.wrap = this.elem.find(options.containerCls);
-      this.items = this.wrap.find(options.itemCls);
-      this.initBg(this.items);
-      this.numberWrap = this.initNumber(this.items.length);
-      this.width = elem.width();
-      this.height = elem.height();
+      options.elem = elem;
+      options.wrap = elem.find(options.containerCls);
+      options.items = options.wrap.find(options.itemCls);
+      this.initBg(options.items);
+      options.numberWrap = this.initNumber(options);
+      options.width = elem.width();
+      options.height = elem.height();
 
-      this.items.css({'z-index': 1});
-      $(this.items[0]).css({'z-index': 2});
+      options.items.css({'z-index': 1});
+      $(options.items[0]).css({'z-index': 2});
 
-      switch(this.anim){
+      switch(options.anim){
         case 'slideup':
-          this.initSlideUpItems();
+          this.initSlideUpItems(options);
           break;
         case 'slide':
-          this.initSlideItems();
+          this.initSlideItems(options);
           break;
         case 'fade':
         default:
-          this.initFadeItems();
+          this.initFadeItems(options);
       }
 
-      this.initEvent();
+      this.initEvent(options);
       if(options.auto){
-        this.setAuto();
+        this.setAuto(options);
       }
     },
-    initEvent: function(){
-      var _this = this,
-          elem = this.elem;
+    initEvent: function(options){
+      var elem = options.elem;
+      var items = options.items;
+      var _this = this;
 
-      if(_this.items.length <= 1){
+      if(items.length <= 1){
         return false;
       }
 
       elem.on('mouseenter mouseleave', function(evt){
-        if(!_this.options.auto){
+        if(!options.auto){
           return false;
         }
         if(evt.type === 'mouseenter'){
-          _this.slideStop();
+          _this.slideStop(options);
         } else {
-          _this.setAuto();
+          _this.setAuto(options);
         }
       });
-      elem.on('click', this.options.numberCls + ' a', function(evt){
-        _this.slideStop();
+      elem.on('click', options.numberCls + ' a', function(evt){
+        _this.slideStop(options);
         var index = parseInt($(evt.target).text(), 10);
-        _this.setActive(index);
-        _this.setAuto();
+        _this.setActive(index, options);
+        _this.setAuto(options);
         return false;
       });
 
       elem.on('click', '.J_prev', function(evt){
-        _this.slideStop();
+        _this.slideStop(options);
         var index = _this.index - 1;
         if(index < 0){
           index = _this.items.length - 1;
         }
-        _this.setActive(index);
-        _this.setAuto();
+        _this.setActive(index, options);
+        _this.setAuto(options);
         return false;
       });
 
       elem.on('click', '.J_next', function(evt){
-        _this.slideStop();
+        _this.slideStop(options);
         var index = _this.index + 1;
         if(index >= _this.items.length){
           index = 0;
         }
-        _this.setActive(index);
-        _this.setAuto();
+        _this.setActive(index, options);
+        _this.setAuto(options);
         return false;
       });
 
-      _this.items.on('click', function(evt){
+      options.items.on('click', function(evt){
         //window.location.href = $(evt.currentTarget).attr('href');
         window.open($(evt.currentTarget).attr('href'), '_blank');
       });
     },
-    slideStop: function(){
-      clearInterval(this.timer);
+    slideStop: function(options){
+      clearInterval(options.timer);
     },
-    setAuto: function(){
-      clearInterval(this.timer);
+    setAuto: function(options){
+      var elem = options.elem;
+      clearInterval(options.timer);
       var _this = this;
-      this.timer = setInterval(function(){
-        var index = (_this.index + 1) % _this.items.length;
-        _this.setActive(index);
-      }, this.options.delay);
+      options.timer = setInterval(function(){
+        var index = (options.index + 1) % options.items.length;
+        _this.setActive(index, options);
+      }, options.delay);
     },
-    setActive: function(index){
-      var items = this.items,
-          numberElems = this.numberWrap.find('a'),
+    setActive: function(index, options){
+      var items = options.items,
+          numberElems = options.numberWrap.find('a'),
           length = items.length;
       index = index >= length ? length-1 : index;
 
-      if(this.index === index){
+      if(options.index === index){
         return;
       }
 
-      switch(this.anim){
+      switch(options.anim){
         case 'slideup':
-          this.slideUpAnim(index);
+          this.slideUpAnim(index, options);
           break;
         case 'slide':
-          this.slideAnim(index);
+          this.slideAnim(index, options);
           break;
         case 'fade':
         default:
-          this.fadeAnim(items, index);
+          this.fadeAnim(index, options);
       }
 
-      $(numberElems[this.index]).removeClass('active');
+      $(numberElems[options.index]).removeClass('active');
       $(numberElems[index]).addClass('active');
-      this.index = index;
+      options.index = index;
     },
-    slideUpAnim: function(index){
-      var wrap = this.wrap,
-          height = this.height;
+    slideUpAnim: function(index, options){
+      var wrap = options.wrap,
+          height = options.height;
 
       if(method._hadTransition){
         $(wrap).css({'top': -index * height + 'px'});
@@ -142,9 +142,9 @@
         }, .8);
       }
     },
-    slideAnim: function(index){
-      var wrap = this.wrap,
-          width = this.width;
+    slideAnim: function(index, options){
+      var wrap = options.wrap,
+          width = options.width;
 
       if(method._hadTransition){
         $(wrap).css({'left': -index * width + 'px'});
@@ -154,12 +154,13 @@
         }, .8);
       }
     },
-    fadeAnim: function(items, index){
+    fadeAnim: function(index, options){
+      var items = options.items;
       if(method._hadTransition){
-        $(items[this.index]).css({'opacity': 0, 'z-index': 1});
+        $(items[options.index]).css({'opacity': 0, 'z-index': 1});
         $(items[index]).css({'opacity': 1, 'z-index': 2});
       } else {
-        $(items[this.index]).animate({
+        $(items[options.index]).animate({
           'opacity': 0,
           'z-index': 1
         }, 800);
@@ -180,11 +181,11 @@
         });
       });
     },
-    initSlideUpItems: function(){
-      var elem = this.elem,
-          wrap = this.wrap,
-          items = this.items,
-          length = items.length;
+    initSlideUpItems: function(options){
+      var elem = options.elem;
+      var wrap = options.wrap;
+      var items = options.items;
+      var length = items.length;
       elem.css({
         'position': 'relative',
         'overflow': 'hidden'
@@ -199,12 +200,12 @@
         'opacity': 1
       });
     },
-    initSlideItems: function(){
-      var elem = this.elem,
-          wrap = this.wrap,
-          items = this.items,
-          width = this.width,
-          length = items.length;
+    initSlideItems: function(options){
+      var elem = options.elem;
+      var wrap = options.wrap;
+      var items = options.items;
+      var width = options.width;
+      var length = items.length;
       elem.css({
         'position': 'relative',
         'overflow': 'hidden'
@@ -223,9 +224,9 @@
         'opacity': 1
       });
     },
-    initFadeItems: function(){
-      var wrap = this.wrap,
-          items = this.items;
+    initFadeItems: function(options){
+      var wrap = options.wrap;
+      var items = options.items;
       wrap.css({
         'position': 'relative'
       });
@@ -235,8 +236,9 @@
         'top': 0
       });
     },
-    initNumber: function(length){
-      var numberWrap = $('<div class="' + this.options.numberCls.slice(1) + '"></div>'),
+    initNumber: function(options){
+      var length = options.items.length;
+      var numberWrap = $('<div class="' + options.numberCls.slice(1) + '"></div>'),
           i, activeStr;
       if(length<=1){
         numberWrap.addClass('less-count');
@@ -247,7 +249,7 @@
         bd.append('<a href="#" class="' + activeStr + '">' + i + '</a>');
       }
       numberWrap.append(bd);
-      this.elem.append(numberWrap);
+      options.elem.append(numberWrap);
       return numberWrap;
     },
     _hadTransition: (function(){
@@ -279,16 +281,16 @@
     }), {
       slideStop: function(){
         $(_elems).each(function(i){
-          this.slideStop();
+          this.slideStop(options);
         });
       },
       setAuto: function(){
         $(_elems).each(function(i){
-          this.setAuto();
+          this.setAuto(options);
         });
       },
       setActive: function(index){
-        method.setActive(index);
+        method.setActive(index, options);
       }
     });
   };
@@ -302,13 +304,13 @@
     method.init(elem, options);
     return $.extend({
       slideStop: function(){
-        method.slideStop();
+        method.slideStop(options);
       },
       setAuto: function(){
-        method.setAuto();
+        method.setAuto(options);
       },
       setActive: function(index){
-        method.setActive(index);
+        method.setActive(index, options);
       }
     }, elem);
   };
@@ -321,6 +323,7 @@
     numberCls: '.slider-number',
     delay: 5E3,
     anim: 'fade',
+    index: 0,
     auto: true
   };
 
