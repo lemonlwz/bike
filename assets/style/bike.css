@@ -130,7 +130,7 @@
   vertical-align: middle;
   width: 116px;
   height: 22px;
-  background: url(../images/sprites.png) 0 -440px no-repeat;
+  background: url(../images/sprites.png) -70px -470px no-repeat;
 }
 /* line 92, sass/mods/_head.scss */
 .bk-head .icon-weibo {
@@ -2360,6 +2360,7 @@
 /* line 7, sass/mods/_person-center.scss */
 .bk-person-center .person-pic {
   position: relative;
+  z-index: 10;
   width: 192px;
   height: 172px;
   margin: -160px 0 0 20px;
@@ -2368,24 +2369,24 @@
   background-color: #fff;
   box-shadow: 0 0 9px rgba(0, 0, 0, 0.18);
 }
-/* line 17, sass/mods/_person-center.scss */
+/* line 18, sass/mods/_person-center.scss */
 .bk-person-center .nav {
   position: relative;
   margin: -114px 0 0 280px;
   zoom: 1;
   z-index: 10;
 }
-/* line 22, sass/mods/_person-center.scss */
+/* line 23, sass/mods/_person-center.scss */
 .bk-person-center .nav:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 27, sass/mods/_person-center.scss */
+/* line 28, sass/mods/_person-center.scss */
 .bk-person-center .nav li {
   float: left;
   display: inline;
-  width: 104px;
+  width: 106px;
   height: 76px;
   margin-right: 16px;
   padding: 10px 0 6px 4px;
@@ -2395,43 +2396,43 @@
   text-decoration: none;
   background: url(../images/sprites.png) 0 -350px no-repeat;
 }
-/* line 39, sass/mods/_person-center.scss */
+/* line 40, sass/mods/_person-center.scss */
 .bk-person-center .nav li a {
   text-decoration: none;
   color: #000;
 }
-/* line 43, sass/mods/_person-center.scss */
+/* line 44, sass/mods/_person-center.scss */
 .bk-person-center .nav li b {
   display: inline;
   float: left;
   width: 100%;
   font-size: 24px;
 }
-/* line 49, sass/mods/_person-center.scss */
+/* line 50, sass/mods/_person-center.scss */
 .bk-person-center .nav li span {
   font-size: 14px;
 }
-/* line 53, sass/mods/_person-center.scss */
+/* line 54, sass/mods/_person-center.scss */
 .bk-person-center .nav .active {
   background-position: 0 -250px;
 }
-/* line 55, sass/mods/_person-center.scss */
+/* line 56, sass/mods/_person-center.scss */
 .bk-person-center .nav .active a {
   color: #fff;
 }
-/* line 60, sass/mods/_person-center.scss */
+/* line 61, sass/mods/_person-center.scss */
 .bk-person-center .inner {
   background-color: #f8f8f8;
   overflow: hidden;
   zoom: 1;
 }
-/* line 64, sass/mods/_person-center.scss */
+/* line 65, sass/mods/_person-center.scss */
 .bk-person-center .inner:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 69, sass/mods/_person-center.scss */
+/* line 70, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside {
   display: inline;
   float: left;
@@ -2444,7 +2445,7 @@
   width: 220px;
   background-color: #ededed;
 }
-/* line 80, sass/mods/_person-center.scss */
+/* line 81, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside .name {
   margin-bottom: 10px;
   font-family: 'Microsoft Yahei', arial;
@@ -2452,19 +2453,19 @@
   text-align: center;
   color: #033;
 }
-/* line 87, sass/mods/_person-center.scss */
+/* line 88, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside label {
   display: block;
   text-align: center;
   font-size: 14px;
   color: #999;
 }
-/* line 93, sass/mods/_person-center.scss */
+/* line 94, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside .ctrl {
   padding: 20px 0;
   text-align: center;
 }
-/* line 96, sass/mods/_person-center.scss */
+/* line 97, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside .ctrl .btn {
   display: inline-block;
   vertical-align: middle;
@@ -2474,77 +2475,77 @@
   border-radius: 2px;
   color: #666;
 }
-/* line 104, sass/mods/_person-center.scss */
+/* line 105, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside .ctrl .btn i, .bk-person-center .inner .aside .ctrl .btn span {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 108, sass/mods/_person-center.scss */
+/* line 109, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside .ctrl .btn i {
   margin-right: 5px;
 }
-/* line 113, sass/mods/_person-center.scss */
+/* line 114, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside .info {
   margin-bottom: 10px;
   line-height: 24px;
   color: #666;
 }
-/* line 118, sass/mods/_person-center.scss */
+/* line 119, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside .line {
   margin: 10px 0;
   border-bottom: 1px dotted #d0d0d0;
 }
-/* line 122, sass/mods/_person-center.scss */
+/* line 123, sass/mods/_person-center.scss */
 .bk-person-center .inner .aside dl {
   line-height: 24px;
   color: #666;
 }
-/* line 127, sass/mods/_person-center.scss */
+/* line 128, sass/mods/_person-center.scss */
 .bk-person-center .inner .main {
   display: inline;
   float: left;
   margin-bottom: -9999em;
   padding-bottom: 9999em;
 }
-/* line 135, sass/mods/_person-center.scss */
+/* line 136, sass/mods/_person-center.scss */
 .bk-person-center .center-main {
   padding: 40px 0 0 40px;
 }
-/* line 137, sass/mods/_person-center.scss */
+/* line 138, sass/mods/_person-center.scss */
 .bk-person-center .center-main h3 {
   margin-bottom: 20px;
   font-size: 18px;
   font-family: 'Microsoft Yahei', arial;
 }
-/* line 141, sass/mods/_person-center.scss */
+/* line 142, sass/mods/_person-center.scss */
 .bk-person-center .center-main h3 i {
   margin-right: 10px;
 }
-/* line 144, sass/mods/_person-center.scss */
+/* line 145, sass/mods/_person-center.scss */
 .bk-person-center .center-main h3 b {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 149, sass/mods/_person-center.scss */
+/* line 150, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course {
   position: relative;
 }
-/* line 151, sass/mods/_person-center.scss */
+/* line 152, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course h4 {
   position: relative;
 }
-/* line 153, sass/mods/_person-center.scss */
+/* line 154, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course h4 .all-km {
   margin-right: 10px;
 }
-/* line 156, sass/mods/_person-center.scss */
+/* line 157, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course h4 b {
   display: inline-block;
   vertical-align: bottom;
   font-family: 'Microsoft Yahei', arial;
   font-size: 18px;
 }
-/* line 163, sass/mods/_person-center.scss */
+/* line 164, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .all-km {
   display: inline-block;
   vertical-align: middle;
@@ -2558,13 +2559,13 @@
   background: url(../images/p-km.png) 0 0 no-repeat;
   color: #fff;
 }
-/* line 176, sass/mods/_person-center.scss */
+/* line 177, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .list {
   position: relative;
   padding-left: 62px;
   padding-bottom: 40px;
 }
-/* line 181, sass/mods/_person-center.scss */
+/* line 182, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .line {
   position: absolute;
   left: 31px;
@@ -2573,7 +2574,7 @@
   height: 100%;
   background: #8baae3;
 }
-/* line 189, sass/mods/_person-center.scss */
+/* line 190, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .point {
   position: absolute;
   left: -38px;
@@ -2583,7 +2584,7 @@
   background: #8baae3;
   border-radius: 10px;
 }
-/* line 198, sass/mods/_person-center.scss */
+/* line 199, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .arrow {
   position: absolute;
   left: -12px;
@@ -2594,7 +2595,7 @@
   border-style: dashed solid dashed dashed;
   border-color: transparent #ddd transparent transparent;
 }
-/* line 207, sass/mods/_person-center.scss */
+/* line 208, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .arrow i {
   position: absolute;
   left: -5px;
@@ -2605,12 +2606,12 @@
   border-style: dashed solid dashed dashed;
   border-color: transparent #fff transparent transparent;
 }
-/* line 218, sass/mods/_person-center.scss */
+/* line 219, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item {
   position: relative;
   padding-top: 30px;
 }
-/* line 221, sass/mods/_person-center.scss */
+/* line 222, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item .cnt {
   padding: 20px;
   background: #fff;
@@ -2618,48 +2619,48 @@
   border-radius: 6px;
   zoom: 1;
 }
-/* line 227, sass/mods/_person-center.scss */
+/* line 228, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item .cnt:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 233, sass/mods/_person-center.scss */
+/* line 234, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item dl {
   display: inline;
   float: left;
   width: 280px;
 }
-/* line 237, sass/mods/_person-center.scss */
+/* line 238, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item dl dt {
   margin-bottom: 12px;
   font-size: 14px;
   font-weight: 700;
 }
-/* line 241, sass/mods/_person-center.scss */
+/* line 242, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item dl dt a {
   color: #06d;
 }
-/* line 245, sass/mods/_person-center.scss */
+/* line 246, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item dl a {
   text-decoration: none;
 }
-/* line 248, sass/mods/_person-center.scss */
+/* line 249, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item dl .km-info {
   margin-bottom: 10px;
   font-family: 'Microsoft Yahei', arial;
   font-weight: 700;
 }
-/* line 253, sass/mods/_person-center.scss */
+/* line 254, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item dl dd {
   color: #666;
 }
-/* line 257, sass/mods/_person-center.scss */
+/* line 258, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item ul {
   display: inline;
   float: left;
 }
-/* line 260, sass/mods/_person-center.scss */
+/* line 261, sass/mods/_person-center.scss */
 .bk-person-center .center-main .course .item ul li {
   display: inline;
   float: left;
@@ -2667,29 +2668,29 @@
   width: 74px;
   height: 74px;
 }
-/* line 272, sass/mods/_person-center.scss */
+/* line 273, sass/mods/_person-center.scss */
 .bk-person-center .club-list {
   width: 640px;
   padding: 20px 0 0 15px;
 }
-/* line 275, sass/mods/_person-center.scss */
+/* line 276, sass/mods/_person-center.scss */
 .bk-person-center .club-list h3 {
   margin-bottom: 22px;
   padding-bottom: 12px;
   border-bottom: 1px solid #dfdfdf;
   color: #333;
 }
-/* line 281, sass/mods/_person-center.scss */
+/* line 282, sass/mods/_person-center.scss */
 .bk-person-center .club-list ul {
   zoom: 1;
 }
-/* line 283, sass/mods/_person-center.scss */
+/* line 284, sass/mods/_person-center.scss */
 .bk-person-center .club-list ul:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 289, sass/mods/_person-center.scss */
+/* line 290, sass/mods/_person-center.scss */
 .bk-person-center .club-list li {
   display: inline;
   float: left;
@@ -2697,7 +2698,7 @@
   margin-right: 2%;
   margin-bottom: 30px;
 }
-/* line 296, sass/mods/_person-center.scss */
+/* line 297, sass/mods/_person-center.scss */
 .bk-person-center .club-list .pic {
   display: inline;
   float: left;
@@ -2710,41 +2711,41 @@
   border: 1px solid #d3d3d3;
   overflow: hidden;
 }
-/* line 307, sass/mods/_person-center.scss */
+/* line 308, sass/mods/_person-center.scss */
 .bk-person-center .club-list .pic img {
   max-width: 100%;
   max-height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 313, sass/mods/_person-center.scss */
+/* line 314, sass/mods/_person-center.scss */
 .bk-person-center .club-list .pic i {
   display: inline-block;
   vertical-align: middle;
   width: 0;
   height: 100px;
 }
-/* line 320, sass/mods/_person-center.scss */
+/* line 321, sass/mods/_person-center.scss */
 .bk-person-center .club-list dl {
   overflow: hidden;
 }
-/* line 322, sass/mods/_person-center.scss */
+/* line 323, sass/mods/_person-center.scss */
 .bk-person-center .club-list dl dt {
   margin-bottom: 16px;
   font-size: 14px;
   font-weight: 700;
   color: #666;
 }
-/* line 327, sass/mods/_person-center.scss */
+/* line 328, sass/mods/_person-center.scss */
 .bk-person-center .club-list dl dt a {
   color: #666;
 }
-/* line 331, sass/mods/_person-center.scss */
+/* line 332, sass/mods/_person-center.scss */
 .bk-person-center .club-list dl dd {
   margin-bottom: 12px;
   color: #999;
 }
-/* line 338, sass/mods/_person-center.scss */
+/* line 339, sass/mods/_person-center.scss */
 .bk-person-center .icon-bike {
   display: inline-block;
   vertical-align: middle;
@@ -2752,7 +2753,7 @@
   height: 20px;
   background: url(../images/sprites.png) -120px -300px no-repeat;
 }
-/* line 346, sass/mods/_person-center.scss */
+/* line 347, sass/mods/_person-center.scss */
 .bk-person-center .icon-hand {
   display: inline-block;
   vertical-align: middle;
@@ -2760,7 +2761,7 @@
   height: 12px;
   background: url(../images/sprites.png) -120px -250px no-repeat;
 }
-/* line 353, sass/mods/_person-center.scss */
+/* line 354, sass/mods/_person-center.scss */
 .bk-person-center .icon-letter {
   display: inline-block;
   vertical-align: middle;
@@ -2768,7 +2769,7 @@
   height: 11px;
   background: url(../images/sprites.png) -140px -250px no-repeat;
 }
-/* line 360, sass/mods/_person-center.scss */
+/* line 361, sass/mods/_person-center.scss */
 .bk-person-center .icon-qq {
   display: inline-block;
   vertical-align: middle;
@@ -2776,11 +2777,11 @@
   height: 20px;
   background: url(../images/sprites.png) -120px -270px no-repeat;
 }
-/* line 366, sass/mods/_person-center.scss */
+/* line 367, sass/mods/_person-center.scss */
 .bk-person-center .icon-qq strong {
   display: none;
 }
-/* line 370, sass/mods/_person-center.scss */
+/* line 371, sass/mods/_person-center.scss */
 .bk-person-center .icon-sina {
   display: inline-block;
   vertical-align: middle;
@@ -2788,11 +2789,11 @@
   height: 20px;
   background: url(../images/sprites.png) -150px -270px no-repeat;
 }
-/* line 376, sass/mods/_person-center.scss */
+/* line 377, sass/mods/_person-center.scss */
 .bk-person-center .icon-sina strong {
   display: none;
 }
-/* line 381, sass/mods/_person-center.scss */
+/* line 382, sass/mods/_person-center.scss */
 .bk-person-center .icon-km {
   position: relative;
   left: -10px;
@@ -2801,7 +2802,7 @@
   vertical-align: middle;
   overflow: hidden;
 }
-/* line 388, sass/mods/_person-center.scss */
+/* line 389, sass/mods/_person-center.scss */
 .bk-person-center .icon-km b {
   position: relative;
   left: 5px;
@@ -2818,7 +2819,7 @@
   background: url(../images/sprites.png) 0 -80px no-repeat;
 }
 
-/* line 406, sass/mods/_person-center.scss */
+/* line 407, sass/mods/_person-center.scss */
 .bk-person-center.w960 {
   width: 960px;
 }

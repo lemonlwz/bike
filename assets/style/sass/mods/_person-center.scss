@@ -6,6 +6,7 @@
   background: #fff;
   .person-pic {
     position: relative;
+    z-index: 10;
     width: 192px;
     height: 172px;
     margin: -160px 0 0 20px;
@@ -27,7 +28,7 @@
     li {
       float: left;
       display: inline;
-      width: 104px;
+      width: 106px;
       height: 76px;
       margin-right: 16px;
       padding: 10px 0 6px 4px;
