@@ -770,7 +770,7 @@
 
 /* line 1, sass/mods/_intro.scss */
 .bk-intro {
-  width: 900px;
+  width: 920px;
   margin: auto;
   padding: 0 30px;
   background: #fff;
@@ -1036,7 +1036,7 @@
 
 /* line 1, sass/mods/_about.scss */
 .bk-about {
-  width: 960px;
+  width: 980px;
   margin: 0 auto;
   background: #ececec;
   zoom: 1;
@@ -1130,7 +1130,7 @@
 
 /* line 1, sass/mods/_activity-list.scss */
 .bk-activity-list {
-  width: 960px;
+  width: 980px;
   margin: 0 auto;
   padding-top: 20px;
   background: #FFF;
@@ -1480,7 +1480,7 @@
 
 /* line 1, sass/mods/_club-list.scss */
 .bk-club-list {
-  width: 900px;
+  width: 980px;
   margin: 0 auto;
   padding: 30px;
   font-size: 12px;
@@ -1791,7 +1791,7 @@
 
 /* line 1, sass/mods/_club-home.scss */
 .bk-club-home {
-  width: 900px;
+  width: 980px;
   margin: 0 auto;
   font-size: 12px;
   background: #fff;
@@ -2352,7 +2352,7 @@
 
 /* line 1, sass/mods/_person-center.scss */
 .bk-person-center {
-  width: 900px;
+  width: 980px;
   margin: 0 auto;
   font-size: 12px;
   background: #fff;
