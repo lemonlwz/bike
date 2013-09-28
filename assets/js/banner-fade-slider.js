@@ -89,7 +89,10 @@
 
       options.items.on('click', function(evt){
         //window.location.href = $(evt.currentTarget).attr('href');
-        window.open($(evt.currentTarget).attr('href'), '_blank');
+        var href = $(evt.currentTarget).attr('href');
+        if(href){
+          window.open(href, '_blank');
+        }
       });
     },
     slideStop: function(options){
