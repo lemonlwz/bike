@@ -1,0 +1,35 @@
+.bk-club-list {
+
+  .club-list3 {
+    zoom: 1;
+    border-top: 1px solid #CCC;
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+    li {
+      display: inline;
+      float: left;
+      width: 50%;
+      padding-left: 0;
+      padding-right: 0;
+      border: 0 none;
+    }
+    .logo {
+      width: 70px;
+      height: 70px;
+      margin-left: 20px;
+      white-space: nowrap;
+      border: 0 none;
+      overflow: hidden;
+    }
+    .cnt {
+      margin-right: 20px;
+      dl {
+        width: auto;
+      }
+    }
+  }
+
+}
