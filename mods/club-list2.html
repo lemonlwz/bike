@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>about</title>
+  <link rel="stylesheet" href="../assets/style/reset.css" />
+  <link rel="stylesheet" href="../assets/style/bike.css" />
+</head>
+<body>
+  <div class="bk-club-list w960">
+    <div class="hd">
+      <ul class="nav">
+        <li class="cur"><a href="#">近期活动 (4)</a></li>
+        <li><a href="#">往期精彩 (32)</a></li>
+        <li class="add-more"><a href="#" class="btn-add-activity">发起新的活动</a></li>
+      </ul>
+    </div>
+    <div class="bd">
+      <div class="J_clubList2 club-list2">
+        <ul>
+          <li class="hover">
+            <div class="pic">
+              <img src="http://placekitten.com/295/200" alt="" />
+              <label>3天后 / 韶关</label>
+            </div>
+            <dl class="cnt">
+              <dt><a href="#">韶关骑缘单车俱乐部成立活动</a></dt>
+              <dd>俱乐部：韶关骑缘单车俱乐部</dd>
+              <dd>活动时间：2013-06-03 至 2013-06-30</dd>
+              <dd>活动地点:韶关美利达旗舰店</dd>
+              <dd>公里数:3公里</dd>
+              <dd>适用等级: 入门级-初出茅庐</dd>
+              <dd>报名截止日期:2013-10-12</dd>
+              <dd>已报名：32人</dd>
+            </dl>
+            <i class="bg"></i>
+            <a href="#" class="btn-join"><i class="icon-gj"></i><b>我要参加</b></a>
+          </li>
+          <li>
+            <div class="pic">
+              <img src="http://placekitten.com/295/200" alt="" />
+              <label>3天后 / 韶关</label>
+            </div>
+            <dl class="cnt">
+              <dt><a href="#">韶关骑缘单车俱乐部成立活动</a></dt>
+              <dd>俱乐部：韶关骑缘单车俱乐部</dd>
+              <dd>活动时间：2013-06-03 至 2013-06-30</dd>
+              <dd>活动地点:韶关美利达旗舰店</dd>
+              <dd>公里数:3公里</dd>
+              <dd>适用等级: 入门级-初出茅庐</dd>
+              <dd>报名截止日期:2013-10-12</dd>
+              <dd>已报名：32人</dd>
+            </dl>
+            <i class="bg"></i>
+            <a href="#" class="btn-join"><i class="icon-gj"></i><b>我要参加</b></a>
+          </li>
+          <li>
+            <div class="pic">
+              <img src="http://placekitten.com/295/200" alt="" />
+              <label>3天后 / 韶关</label>
+            </div>
+            <dl class="cnt">
+              <dt><a href="#">韶关骑缘单车俱乐部成立活动</a></dt>
+              <dd>俱乐部：韶关骑缘单车俱乐部</dd>
+              <dd>活动时间：2013-06-03 至 2013-06-30</dd>
+              <dd>活动地点:韶关美利达旗舰店</dd>
+              <dd>公里数:3公里</dd>
+              <dd>适用等级: 入门级-初出茅庐</dd>
+              <dd>报名截止日期:2013-10-12</dd>
+              <dd>已报名：32人</dd>
+            </dl>
+            <i class="bg"></i>
+            <a href="#" class="btn-join"><i class="icon-gj"></i><b>我要参加</b></a>
+          </li>
+          <li>
+            <div class="pic">
+              <img src="http://placekitten.com/295/200" alt="" />
+              <label>3天后 / 韶关</label>
+            </div>
+            <dl class="cnt">
+              <dt><a href="#">韶关骑缘单车俱乐部成立活动</a></dt>
+              <dd>俱乐部：韶关骑缘单车俱乐部</dd>
+              <dd>活动时间：2013-06-03 至 2013-06-30</dd>
+              <dd>活动地点:韶关美利达旗舰店</dd>
+              <dd>公里数:3公里</dd>
+              <dd>适用等级: 入门级-初出茅庐</dd>
+              <dd>报名截止日期:2013-10-12</dd>
+              <dd>已报名：32人</dd>
+            </dl>
+            <i class="bg"></i>
+            <a href="#" class="btn-join"><i class="icon-gj"></i><b>我要参加</b></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="../assets/lib/jquery.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(){
+      $searchAllBtn = $('.J_searchAll');
+      $searchFilter = $('.J_searchFilter');
+      $searchAllBtn.on('click', function(){
+        if($searchFilter.hasClass('hidden')){
+          $searchFilter.removeClass('hidden');
+        } else {
+          $searchFilter.addClass('hidden');
+        }
+      });
+
+      var $clublist2 = $('.J_clubList2');
+      var $clublist2lis = $clublist2.find('li');
+      $clublist2.on('mouseenter mouseleave', 'li', function(evt){
+        var $target = $(evt.currentTarget);
+        if(evt.type === 'mouseenter'){
+          $clublist2lis.removeClass('hover');
+          $target.addClass('hover');
+        } else {
+          $target.removeClass('hover');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
