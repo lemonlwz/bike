@@ -1764,6 +1764,15 @@
   background: url(../images/sprites.png) -150px -50px no-repeat;
 }
 
+/* line 5, sass/mods/_club-list2.scss */
+.bk-club-list .icon-activity {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 20px;
+  background: url(../images/sprites.png) -150px -50px no-repeat;
+}
+
 /* line 1, sass/mods/_club-home.scss */
 .bk-club-home {
   width: 980px;
