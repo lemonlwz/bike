@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>about</title>
+  <link rel="stylesheet" href="../assets/style/reset.css" />
+  <link rel="stylesheet" href="../assets/style/bike.css" />
+</head>
+<body>
+  <div class="bk-club-list w960">
+    <div class="hd">
+      <h2>HEYBIKE俱乐部列表 <span class="all J_searchAll"><b>全部</b><i></i></span></h2>
+      <div class="search">
+        <input type="text" class="txt" />
+        <input type="button" class="btn" value="" title="搜索" />
+      </div>
+      <ul class="filter J_searchFilter hidden">
+        <li>
+          <label>选择城市:</label>
+          <a href="#" class="active">广州</a>
+          <a href="#">深圳</a>
+          <a href="#">上海</a>
+          <a href="#">北京</a>
+        </li>
+        <li>
+          <label>排序方式:</label>
+          <a href="#" class="active">按里程总数</a>
+          <a href="#">按周里程数</a>
+          <a href="#">按会员数</a>
+          <a href="#">按活动数</a>
+        </li>
+      </ul>
+    </div>
+    <div class="bd">
+      <ul class="club-list club-list3">
+        <li>
+          <div class="logo"><i></i><img width="120" src="../assets/images/logo.png" alt="" /></div>
+          <div class="cnt">
+            <dl>
+              <dt><span class="icon-num">1</span><a href="#" class="name">HEYBIKE俱乐部</a></dt>
+              <dd class="km-info"><span class="icon-km"><b>45699475</b></span><b>公里</b></dd>
+              <dd class="richtext">
+需要大家共同完善 欢迎各位车友的加入, 希望这里能成为爱车人聚会的地方。 大家畅所欲言，交流心得与经验，讲述关于单车的点点滴滴。 共同享受单车运动带给大家的...
+              </dd>
+            </dl>
+          </div>
+        </li>
+        <li>
+          <div class="logo"><i></i><img width="120" src="../assets/images/logo.png" alt="" /></div>
+          <div class="cnt">
+            <dl>
+              <dt><span class="icon-num">2</span><a href="#" class="name">HEYBIKE俱乐部</a></dt>
+              <dd class="km-info"><span class="icon-km"><b>45699475</b></span><b>公里</b></dd>
+              <dd class="richtext">
+需要大家共同完善 欢迎各位车友的加入, 希望这里能成为爱车人聚会的地方。 大家畅所欲言，交流心得与经验，讲述关于单车的点点滴滴。 共同享受单车运动带给大家的...
+              </dd>
+            </dl>
+          </div>
+        </li>
+        <li>
+          <div class="logo"><i></i><img width="120" src="../assets/images/logo.png" alt="" /></div>
+          <div class="cnt">
+            <dl>
+              <dt><span class="icon-num">3</span><a href="#" class="name">HEYBIKE俱乐部</a></dt>
+              <dd class="km-info"><span class="icon-km"><b>45699475</b></span><b>公里</b></dd>
+              <dd class="richtext">
+需要大家共同完善 欢迎各位车友的加入, 希望这里能成为爱车人聚会的地方。 大家畅所欲言，交流心得与经验，讲述关于单车的点点滴滴。 共同享受单车运动带给大家的...
+              </dd>
+            </dl>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="../assets/lib/jquery.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function(){
+      $searchAllBtn = $('.J_searchAll');
+      $searchFilter = $('.J_searchFilter');
+      $searchAllBtn.on('click', function(){
+        if($searchFilter.hasClass('hidden')){
+          $searchFilter.removeClass('hidden');
+        } else {
+          $searchFilter.addClass('hidden');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
