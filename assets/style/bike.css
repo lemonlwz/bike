@@ -1956,18 +1956,21 @@
 }
 /* line 21, sass/mods/_club-list3.scss */
 .bk-club-list .club-list3 .logo {
-  width: 70px;
-  height: 70px;
+  width: 120px;
   margin-left: 20px;
   white-space: nowrap;
   border: 0 none;
   overflow: hidden;
 }
-/* line 29, sass/mods/_club-list3.scss */
+/* line 28, sass/mods/_club-list3.scss */
+.bk-club-list .club-list3 .logo i {
+  display: none;
+}
+/* line 32, sass/mods/_club-list3.scss */
 .bk-club-list .club-list3 .cnt {
   margin-right: 20px;
 }
-/* line 31, sass/mods/_club-list3.scss */
+/* line 34, sass/mods/_club-list3.scss */
 .bk-club-list .club-list3 .cnt dl {
   width: auto;
 }

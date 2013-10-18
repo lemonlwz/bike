@@ -19,12 +19,15 @@
       border: 0 none;
     }
     .logo {
-      width: 70px;
-      height: 70px;
+      width: 120px;
+      //height: 70px;
       margin-left: 20px;
       white-space: nowrap;
       border: 0 none;
       overflow: hidden;
+      i {
+        display: none;
+      }
     }
     .cnt {
       margin-right: 20px;
