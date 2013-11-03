@@ -1956,7 +1956,7 @@
 }
 /* line 21, sass/mods/_club-list3.scss */
 .bk-club-list .club-list3 .logo {
-  width: 120px;
+  width: 70px;
   margin-left: 20px;
   white-space: nowrap;
   border: 0 none;
@@ -3001,4 +3001,174 @@
   letter-spacing: .5em;
   color: #fff;
   background: url(../images/sprites.png) 0 -80px no-repeat;
+}
+
+/* line 1, sass/mods/_mileage.scss */
+.bk-mileage {
+  width: 100%;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  font-family: 'Microsoft Yahei', arial;
+  background: url(../images/mileage-bg.png) center no-repeat;
+  color: #fff;
+}
+/* line 9, sass/mods/_mileage.scss */
+.bk-mileage .bd {
+  width: 800px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+/* line 14, sass/mods/_mileage.scss */
+.bk-mileage h2 {
+  padding: 60px 0 25px 0;
+  font-size: 60px;
+  font-weight: 700;
+}
+/* line 18, sass/mods/_mileage.scss */
+.bk-mileage h2 b {
+  color: #ff6c00;
+}
+/* line 22, sass/mods/_mileage.scss */
+.bk-mileage h3 {
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+/* line 27, sass/mods/_mileage.scss */
+.bk-mileage .label-mileage {
+  display: inline-block;
+  width: 689px;
+  height: 115px;
+  margin-right: 10px;
+  line-height: 115px;
+  text-indent: 20px;
+  letter-spacing: 44px;
+  font-family: arial;
+  font-size: 76px;
+  background: url(../images/label-mileage.png) 0 0 no-repeat;
+  _background: url(../images/label-mileage-png8.png) 0 0 no-repeat;
+  color: #000;
+}
+/* line 42, sass/mods/_mileage.scss */
+.bk-mileage .all-mileage {
+  margin-bottom: 30px;
+}
+/* line 44, sass/mods/_mileage.scss */
+.bk-mileage .all-mileage b {
+  font-size: 26px;
+}
+/* line 49, sass/mods/_mileage.scss */
+.bk-mileage .btn-join-us {
+  display: inline-block;
+  width: 355px;
+  height: 92px;
+  background: url(../images/m-join-us.png) 0 0 no-repeat;
+}
+/* line 56, sass/mods/_mileage.scss */
+.bk-mileage .info-list {
+  padding-top: 60px;
+}
+/* line 60, sass/mods/_mileage.scss */
+.bk-mileage .info-list {
+  zoom: 1;
+}
+/* line 62, sass/mods/_mileage.scss */
+.bk-mileage .info-list:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 67, sass/mods/_mileage.scss */
+.bk-mileage .info-list li {
+  display: inline;
+  float: left;
+  width: 400px;
+  height: 145px;
+  zoom: 1;
+}
+/* line 73, sass/mods/_mileage.scss */
+.bk-mileage .info-list li:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 79, sass/mods/_mileage.scss */
+.bk-mileage .info-list .icon {
+  display: inline;
+  float: left;
+  margin-right: 15px;
+}
+/* line 84, sass/mods/_mileage.scss */
+.bk-mileage .info-list dt {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+/* line 88, sass/mods/_mileage.scss */
+.bk-mileage .info-list .num {
+  margin-right: 10px;
+  font-size: 57px;
+}
+/* line 92, sass/mods/_mileage.scss */
+.bk-mileage .info-list .sub {
+  font-size: 20px;
+}
+/* line 95, sass/mods/_mileage.scss */
+.bk-mileage .info-list .richtext {
+  line-height: 28px;
+  font-family: Simsun, arial;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* line 100, sass/mods/_mileage.scss */
+.bk-mileage .info-list .richtext .l {
+  text-align: left;
+}
+/* line 103, sass/mods/_mileage.scss */
+.bk-mileage .info-list .richtext .r {
+  text-align: right;
+}
+/* line 109, sass/mods/_mileage.scss */
+.bk-mileage .sub {
+  display: inline-block;
+}
+/* line 113, sass/mods/_mileage.scss */
+.bk-mileage .icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 117, sass/mods/_mileage.scss */
+.bk-mileage .icon-car {
+  width: 79px;
+  height: 79px;
+  background: url(../images/m-icon-car.png) 0 0 no-repeat;
+}
+/* line 122, sass/mods/_mileage.scss */
+.bk-mileage .icon-oil {
+  width: 79px;
+  height: 79px;
+  background: url(../images/m-icon-oil.png) 0 0 no-repeat;
+}
+/* line 127, sass/mods/_mileage.scss */
+.bk-mileage .icon-co2 {
+  width: 79px;
+  height: 79px;
+  background: url(../images/m-icon-co2.png) 0 0 no-repeat;
+}
+/* line 132, sass/mods/_mileage.scss */
+.bk-mileage .icon-food {
+  width: 79px;
+  height: 79px;
+  background: url(../images/m-icon-food.png) 0 0 no-repeat;
+}
+/* line 137, sass/mods/_mileage.scss */
+.bk-mileage .icon-tree {
+  width: 79px;
+  height: 79px;
+  background: url(../images/m-icon-tree.png) 0 0 no-repeat;
+}
+/* line 142, sass/mods/_mileage.scss */
+.bk-mileage .icon-tree {
+  width: 79px;
+  height: 79px;
+  background: url(../images/m-icon-tree.png) 0 0 no-repeat;
 }

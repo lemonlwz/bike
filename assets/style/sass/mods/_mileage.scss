@@ -1,0 +1,147 @@
+.bk-mileage {
+  width: 100%;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  font-family: 'Microsoft Yahei', arial;
+  background: url(../images/mileage-bg.png) center no-repeat;
+  color: #fff;
+  .bd {
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+  }
+  h2 {
+    padding: 60px 0 25px 0;
+    font-size: 60px;
+    font-weight: 700;
+    b {
+      color: #ff6c00;
+    }
+  }
+  h3 {
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+
+  .label-mileage {
+    display: inline-block;
+    width: 689px;
+    height: 115px;
+    margin-right: 10px;
+    line-height: 115px;
+    text-indent: 20px;
+    letter-spacing: 44px;
+    font-family: arial;
+    font-size: 76px;
+    background: url(../images/label-mileage.png) 0 0 no-repeat;
+    _background: url(../images/label-mileage-png8.png) 0 0 no-repeat;
+    color: #000;
+  }
+
+  .all-mileage {
+    margin-bottom: 30px;
+    b {
+      font-size: 26px;
+    }
+  }
+
+  .btn-join-us {
+    display: inline-block;
+    width: 355px;
+    height: 92px;
+    background: url(../images/m-join-us.png) 0 0 no-repeat;
+  }
+
+  .info-list {
+    padding-top: 60px;
+  }
+
+  .info-list {
+    zoom: 1;
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+    li {
+      display: inline;
+      float: left;
+      width: 400px;
+      height: 145px;
+      zoom: 1;
+      &:after {
+        content: '';
+        display: table;
+        clear: both;
+      }
+    }
+    .icon {
+      display: inline;
+      float: left;
+      margin-right: 15px;
+    }
+    dt {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+    .num {
+      margin-right: 10px;
+      font-size: 57px;
+    }
+    .sub {
+      font-size: 20px;
+    }
+    .richtext {
+      line-height: 28px;
+      font-family: Simsun, arial;
+      font-size: 20px;
+      font-weight: 700;
+      .l {
+        text-align: left;
+      }
+      .r {
+        text-align: right;
+      }
+    }
+  }
+
+  .sub {
+    display: inline-block;
+  }
+
+  .icon {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .icon-car {
+    width: 79px;
+    height: 79px;
+    background: url(../images/m-icon-car.png) 0 0 no-repeat;
+  }
+  .icon-oil {
+    width: 79px;
+    height: 79px;
+    background: url(../images/m-icon-oil.png) 0 0 no-repeat;
+  }
+  .icon-co2 {
+    width: 79px;
+    height: 79px;
+    background: url(../images/m-icon-co2.png) 0 0 no-repeat;
+  }
+  .icon-food {
+    width: 79px;
+    height: 79px;
+    background: url(../images/m-icon-food.png) 0 0 no-repeat;
+  }
+  .icon-tree {
+    width: 79px;
+    height: 79px;
+    background: url(../images/m-icon-tree.png) 0 0 no-repeat;
+  }
+  .icon-tree {
+    width: 79px;
+    height: 79px;
+    background: url(../images/m-icon-tree.png) 0 0 no-repeat;
+  }
+}
